@@ -1,4 +1,42 @@
-# [Alembic](https://alembic.darn.es/)
+# www.pikaviestin.fi saitin julkaisu
+
+Käytössä on [Alembic](https://alembic.darn.es/) teema jekyll templaattienginelle. Github Pages generoi staattisen sivun sisällön perusteella.
+
+## Uutisen, ohjeen tai linkin lisäys
+
+_posts -hakemistoon lisätään uusi .md -tiedosto, joka nimetään alkamaan päivämäärällä muodossa `YYYY-MM-DD-` ja perään joku fiksu nimi sille sekä loppuun pääte `.md`
+
+Sisällöksi alkuun määrämuotoinen määrittely kolmella viivalla eroteltujen rivien väliin ja sit perään voi kirjoitella sisältöä mielin määrin.
+
+```
+---
+title: Postin otsikko tulee tähä!
+categories:
+- Uutiset
+- Linkit
+- Ohjeet
+excerpt: |
+  excerptin voi kirjoitella joko tähän, tai jos saman tekstin haluaa _myös_ sivulle, niin sitten kannattaa jättää tää kohta pois kokonaan, niin excerptiksi nousee eka kappale tai max N merkkiä...
+feature_text: |
+  ## Tää teksti näkyy kuvan päällä!
+  Ja tukee kivasti markdownia tämäkin...
+feature_image: "https://picsum.photos/2560/600?image=733"
+image: "https://picsum.photos/2560/600?image=733"
+---
+
+Tänne sit eka varsinainen sisältökappale.
+
+<!-- more -->
+
+Tuo ^ rivi katkaisee excerptin, jos haluu pitää lyhyenä eikä ollu sattunu määrittelemään tonne yamlin puolelle sitä.
+
+```
+
+## Jekyll omalla koneella?
+
+Jotta muutokset voi ihmetellä etukäteen, niin jekylliä voi ajella myös paikallisesti ennen saitin commitointia.
+
+
 [![Gem Version](https://badge.fury.io/rb/alembic-jekyll-theme.svg)](https://badge.fury.io/rb/alembic-jekyll-theme)
 
 ⚗ A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
@@ -8,21 +46,38 @@
 [<img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" width="217"/>](https://buymeacoffee.com/daviddarnes#support)
 
 ## Contents
-- [About](#about)
-- [Features](#features)
-- [Examples](#examples)
-- [Installation](#installation)
-- [Customising](#customising)
-- [Configuration](#configuration)
-  - [Gem dependency settings](#gem-dependency-settings)
-  - [Site settings](#site-settings)
-  - [Site performance settings](#site-performance-settings)
-  - [Site navigation](#site-navigation)
-  - [Custom fonts](#custom-fonts)
-- [Using includes](#using-includes)
-- [Page layouts](#page-layouts)
-- [Page and Post options](#page-and-post-options)
-- [Credits](#credits)
+- [www.pikaviestin.fi saitin julkaisu](#wwwpikaviestinfi-saitin-julkaisu)
+  - [Uutisen, ohjeen tai linkin lisäys](#uutisen-ohjeen-tai-linkin-lisäys)
+  - [Jekyll omalla koneella?](#jekyll-omalla-koneella)
+  - [Contents](#contents)
+  - [About](#about)
+  - [Features](#features)
+  - [Examples](#examples)
+  - [Installation](#installation)
+    - [Quick setup](#quick-setup)
+    - [As a Jekyll theme](#as-a-jekyll-theme)
+    - [As a GitHub Pages remote theme](#as-a-github-pages-remote-theme)
+    - [As a Boilerplate / Fork](#as-a-boilerplate--fork)
+  - [Customising](#customising)
+  - [Configuration](#configuration)
+    - [Gem dependency settings](#gem-dependency-settings)
+    - [Site settings](#site-settings)
+    - [Site performance settings](#site-performance-settings)
+    - [Site navigation](#site-navigation)
+    - [Custom fonts](#custom-fonts)
+  - [Using includes](#using-includes)
+    - [`button.html`](#buttonhtml)
+    - [`figure.html`](#figurehtml)
+    - [`icon.html`](#iconhtml)
+    - [`nav-share.html`](#nav-sharehtml)
+    - [`video.html`](#videohtml)
+    - [`map.html`](#maphtml)
+    - [`site-form.html`](#site-formhtml)
+    - [`site-search.html`](#site-searchhtml)
+    - [`site-before-start.html` \& `site-before-end.html`](#site-before-starthtml--site-before-endhtml)
+  - [Page layouts](#page-layouts)
+  - [Page and Post options](#page-and-post-options)
+  - [Credits](#credits)
 
 ## About
 

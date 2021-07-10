@@ -1,38 +1,26 @@
-# Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
-# 8. Site favicons & manifest icons
-# 9. Site navigation
-#
-
 exclude:
- - README.md
- - CODE_OF_CONDUCT.md
- - CONTRIBUTING.md
- - screenshot.png
- - LICENSE
- - CNAME
- - Gemfile
- - Gemfile.lock
- - alembic-jekyll-theme.gemspec
- - '.jekyll-cache'
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - screenshot.png
+  - LICENSE
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - alembic-jekyll-theme.gemspec
+  - '.jekyll-cache'
 
 # 2. Installed Gems
 plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jekyll-commonmark
-- jekyll-include-cache
-- jemoji
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-commonmark
+  - jekyll-include-cache
+  - jemoji
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
@@ -40,18 +28,18 @@ paginate_path: blog/page:num # jekyll-paginate > blog page
 # jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 # twitter:
 #   username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-author: Pikaviestin.fi ylläpitäjät # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://github.com/daviddarnes
- markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
- commonmark:
-   options: ["SMART", "FOOTNOTES"]
-   extensions: ["strikethrough", "autolink", "table"]
+author: "Pikaviestin.fi ylläpitäjät" # jekyll-seo-tag > default author
+#social: # jekyll-seo-tag > social overrides
+#  name: David Darnes # jekyll-seo-tag > real name
+#  links:  # jekyll-seo-tag > social aliases (sameAs)
+#    - https://twitter.com/DavidDarnes
+#    - https://www.facebook.com/daviddarnes
+#    - https://www.linkedin.com/in/daviddarnes
+#    - https://github.com/daviddarnes
+#markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
+#commonmark:
+#  options: ["SMART", "FOOTNOTES"]
+#  extensions: ["strikethrough", "autolink", "table"]
 
 # 4. Jekyll settings
 sass:
@@ -95,13 +83,13 @@ encoding: utf-8 # Make sure the encoding is right
 lang: fi-FI # Set the site language
 title: "pikaviestin.fi" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+description: "Pikaviestin.fi on Suomalaisille käyttäjille suunnattu ilmainen Matrix-verkon pikaviestipalvelu." # Site description and default description, also used in jekyll-seo-tag
 url: "https://www.pikaviestin.fi" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/daviddarnes/alembic"
 email: "yllapito@pikaviestin.fi"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-# date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
+date_format: "%d.%m.%Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
 # google_analytics_anonymize_ip: ""
 # service_worker: false # Will turn off the service worker if set to false
@@ -138,7 +126,7 @@ navigation_footer:
 - title: Tekniset resurssit tarjoaa Kapsi Internet-käyttäjät ry
   url: https://www.kapsi.fi
 
- social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
 #  Twitter: https://twitter.com/DavidDarnes
 #  LinkedIn: https://www.linkedin.com/in/daviddarnes
   GitHub: https://github.com/matrix-ax
