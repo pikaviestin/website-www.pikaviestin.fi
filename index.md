@@ -13,7 +13,7 @@ Suomalaisille käyttäjille suunnattu avoimeen Matrix-viestiverkkoon perustuva v
 
 Pikaviestimet ovat näppärä yhteydenpitoväline niin puhelimella kuin tietokoneella käytettynä, mutta palveluiden suuren määrän takia joudut usein käyttämään eri pikaviestimiä eri henkilöiden tavoittamiseen. Matrix-pikaviestiverkkoon perustuva viestipalvelumme toimii itsessään viestintäkanavana, mutta tarjoaa samalla mahdollisuuden yhdistää useita muita pikaviestipalveluja saman sovelluksen kautta käytettäväksi.
 
-Käyttämällä https://element.pikaviestin.fi -palvelua voit tällä hetkellä käyttää samalla myös seuraavia palveluita:
+Käyttämällä pikaviestin.fi-palvelua voit tällä hetkellä käyttää samalla myös seuraavia muita viestintäpalveluita:
 
 - Facebook Messenger
 - IRC
@@ -34,6 +34,17 @@ Viestit kulkevat verkossa salattuina.
 1. Pyydä itsellesi tunnus
 2. Mene [tänne](https://element.pikaviestin.fi) ja kirjaudu sisään
 3. Ala tsättäämään!
+
+## Asiakasohjelmat
+
+Matrix-viestiverkkoa voit käyttää usealla eri asiakasohjelmalla. Tarjoamme selaimella käytettäväksi tällä hetkellä [Element](#) -ohjelmaa, joka on säädetty toimimaan pikaviestin.fi-palvelun kanssa suoraan parhaalla mahdollisella tavalla. 
+
+TODO:
+
+- Lisää Element oikiasti saataville!
+- Lisää Cinny myös saataville projektin toimesta?
+- Mainitaan ainakin FluffyChat?
+- Lisättävä tiedot Android & iOS -versioista
 
 ## Keitä me olemme ja miksi tämä palvelu on olemassa?
 
