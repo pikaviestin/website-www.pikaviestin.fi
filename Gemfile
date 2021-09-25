@@ -4,6 +4,7 @@ source "https://rubygems.org"
 gem 'jekyll'
 gem 'jemoji'
 gem 'webrick'
+# gem 'github-pages', '~> 219'
 
 group :jekyll_plugins do
 gem 'jekyll-sitemap'
