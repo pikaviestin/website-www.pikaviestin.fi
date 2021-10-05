@@ -19,7 +19,7 @@ jobs:
         uses: actions-js/push@v1.3
         with:
          github_token: ${{ secrets.GITHUB_TOKEN }}
-         author_email: ${GITHUB_ACTOR}@users.noreply.github.com"
+         author_email: ${GITHUB_ACTOR}@users.noreply.github.com
          author_name: ${{ GITHUB_ACTOR }}
          directory: build
          branch: gh-pages
