@@ -21,4 +21,5 @@ jobs:
          github_token: ${{ secrets.GITHUB_TOKEN }}
          directory: build
          branch: gh-pages
+         force: true
          commit_message: 🧪 Deploy with ${GITHUB_WORKFLOW}
