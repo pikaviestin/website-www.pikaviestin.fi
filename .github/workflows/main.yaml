@@ -14,7 +14,7 @@ jobs:
         uses: jerryjvl/jekyll-build-action@v1
       - name: Copy CNAME
         run:
-         cp CNAME build/
+         sudo cp CNAME build/
       - name: Publish site
         uses: actions-js/push@v1.3
         with:
