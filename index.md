@@ -63,6 +63,6 @@ Ajassa, jossa suositut ja laajalti käytetyt palvelut ovat lähes poikkeuksetta 
 
 Tämä palvelu on tarkoitettu Suomessa asuville käyttäjille. Palvelu tallentaa käyttäjän syöttämät tiedot sekä viestihistorian palvelun toteutuksen vaatimalla tavalla. Ylläpidolla ei ole pääsyä viesteihin niiltä osin, kun ne on salattu End-to-End (E2EE) -menetelmin. Viestinnän salaus on käyttäjän itsensä hallittavissa.
 
-Kaikki viestiliikenne on kuitenkin verkkotasolla salattua HTTPS-menetelmää käyttäen, joten tietoja ei liiku verkossa salaamattomana.
+Kaikki viestiliikenne on verkkotasolla HTTPS-menetelmällä salattua, joten tietoja ei liiku verkossa salaamattomana.
 
 Palvelun tietosuojaseloste löytyy linkin takaa.
