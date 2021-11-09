@@ -51,7 +51,7 @@ Mobiili <a href="https://fluffychat.im/en/">FluffyChat</a>:
 
 TODO:
 
-- Lisää Cinny myös saataville projektin toimesta?
+- GDPR jutut
 
 ## Keitä me olemme ja miksi tämä palvelu on olemassa?
 

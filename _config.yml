@@ -115,6 +115,8 @@ navigation_header:
   url: /
 - title: Web chat
   url: https://chat.pikaviestin.fi
+- title: Cinny
+  url: https://cinny.pikaviestin.fi
 - title: Uutiset
   url: /blog/
 - title: Categories
