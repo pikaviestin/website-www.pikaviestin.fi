@@ -1,3 +1,5 @@
+# Tietusuojaseloste
+
 ## 1. Rekisterin pitäjä
 Nimi: Pikaviestin.fi yhteisö
 

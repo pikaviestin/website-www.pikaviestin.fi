@@ -61,4 +61,4 @@ Tämä palvelu on tarkoitettu Suomessa asuville käyttäjille. Palvelu tallentaa
 
 Kaikki viestiliikenne on verkkotasolla HTTPS-menetelmällä salattua, joten tietoja ei liiku verkossa salaamattomana.
 
-Palvelun tietosuojaseloste löytyy <a href="https://www.pikaviestin.fi/tietosuojaseloste/">linkin</a> takaa.
+Palvelun tietosuojaseloste löytyy <a href="https://www.pikaviestin.fi/tietosuojaseloste.pdf">linkin</a> takaa.
