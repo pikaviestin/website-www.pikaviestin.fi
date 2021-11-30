@@ -23,7 +23,7 @@ Käyttämällä pikaviestin.fi-palvelua voit tällä hetkellä käyttää samall
 - Telegram
 - WhatsApp
 
-Voit käyttää palvelua sekä puhelimella. Kahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan suljettuja keskusteluja sekä liittyä erilaisiin ryhmiin. Sinun ei tarvitse antaa henkilötietojasi eikä yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tältäkin osalta turvallista myös uusien tuttavuuksien kanssa.
+Voit käyttää palvelua tietokoneella sekä puhelimella. Kahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan suljettuja keskusteluja sekä liittyä erilaisiin ryhmiin. Sinun ei tarvitse antaa henkilötietojasi eikä yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tältäkin osalta turvallista myös uusien tuttavuuksien kanssa.
 
 Viestit kulkevat verkossa salattuina.
 
