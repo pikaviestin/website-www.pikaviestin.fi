@@ -29,11 +29,10 @@ Viestit kulkevat verkossa salattuina.
 
 ## Miten pääset käyttämään palvelua?
 
-** Nämä ohjeet päivittyy myöhemmin!** ;)
-
-1. Pyydä itsellesi tunnus
-2. Mene [tänne](https://chat.pikaviestin.fi) ja kirjaudu sisään
-3. Ala tsättäämään!
+1. Mene luomaan käyttäjätunnus itsellesi [täällä](https://login.pikaviestin.fi/if/flow/matrix-enrollment/).
+2. Muista vahvistaa käyttäjätunnuksesi saamasi sähköpostin avulla.
+3. Mene [tänne](https://chat.pikaviestin.fi) ja kirjaudu sisään.
+4. Ala tsättäämään!
 
 ## Asiakasohjelmat
 
