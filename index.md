@@ -49,10 +49,6 @@ Mobiili <a href="https://fluffychat.im/en/">FluffyChat</a>:
 <a href='https://play.google.com/store/apps/details?id=chat.fluffy.fluffychat&hl=en&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/fi_badge_web_generic.png'/></a>  
 <a href="https://apps.apple.com/us/app/fluffychat/id1551469600?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fi-fi?size=250x83&amp;releaseDate=1612310400&h=4b8323ba33edec0855b66c954f34a2ea" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 
-TODO:
-
-- GDPR jutut
-
 ## Keitä me olemme ja miksi tämä palvelu on olemassa?
 
 pikaviestin.fi-palvelua ylläpitää joukko vapaaehtoisia harrastajia, jotka haluavat yhdessä edesauttaa vapaan lähdekoodin, federoidun Matrix-viestipalvelun yleistymistä ja käyttöä. Matrixin teknologia tarjoaa avoimen ja mistään yksittäisestä toimijasta riippumattoman toteutuksen maailmanlaajuiseen viestintään ja kommunikaatioon. 
@@ -65,4 +61,4 @@ Tämä palvelu on tarkoitettu Suomessa asuville käyttäjille. Palvelu tallentaa
 
 Kaikki viestiliikenne on verkkotasolla HTTPS-menetelmällä salattua, joten tietoja ei liiku verkossa salaamattomana.
 
-Palvelun tietosuojaseloste löytyy linkin takaa.
+Palvelun tietosuojaseloste löytyy <a href="https://www.pikaviestin.fi/tietosuojaseloste/">linkin</a> takaa.

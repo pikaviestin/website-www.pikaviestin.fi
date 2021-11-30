@@ -119,6 +119,8 @@ navigation_header:
   url: https://cinny.pikaviestin.fi
 - title: Uutiset
   url: /blog/
+- title: Tietosuojaseloste
+  url: /tietosuojaseloste/
 - title: Categories
   url: /categories/
 - title: Search
