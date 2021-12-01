@@ -29,6 +29,9 @@ Viestit kulkevat verkossa salattuina.
 
 ## Miten pääset käyttämään palvelua?
 
+**HUOM: Käytössä on valkoinen lista, jossa listattuna ei ole esim Gmail, Yahoo, Hotmail.  
+Siellä on oppilaitosten verkkotunnuksia, kaupunkien ja suomalaisen operaattoreiden eli esim *.inet.fi.**
+
 1. Mene luomaan käyttäjätunnus itsellesi [täällä](https://login.pikaviestin.fi/if/flow/matrix-enrollment/).
 2. Muista vahvistaa käyttäjätunnuksesi saamasi sähköpostin avulla.
 3. Mene [tänne](https://chat.pikaviestin.fi) ja kirjaudu sisään.
