@@ -45,12 +45,12 @@ Matrix-viestiverkkoa voit käyttää usealla eri asiakasohjelmalla. Tarjoamme se
 Mobiili <a href="https://element.io/">Element</a>:
 
 <a href='https://play.google.com/store/apps/details?id=im.vector.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/fi_badge_web_generic.png'/></a>  
-<a href="https://apps.apple.com/us/app/element-messenger/id1083446067?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img height='100' width='200' src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fi-fi?size=250x83&amp;releaseDate=1462406400&h=ddf7313f1d4bd8a37bc50f1c25242da1" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+<a href="https://apps.apple.com/app/element-messenger/id1083446067?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img height='100' width='200' src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fi-fi?size=250x83&amp;releaseDate=1462406400&h=ddf7313f1d4bd8a37bc50f1c25242da1" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 
 Mobiili <a href="https://fluffychat.im/en/">FluffyChat</a>:
 
 <a href='https://play.google.com/store/apps/details?id=chat.fluffy.fluffychat&hl=en&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/fi_badge_web_generic.png'/></a>  
-<a href="https://apps.apple.com/us/app/fluffychat/id1551469600?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fi-fi?size=250x83&amp;releaseDate=1612310400&h=4b8323ba33edec0855b66c954f34a2ea" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+<a href="https://apps.apple.com/app/fluffychat/id1551469600?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fi-fi?size=250x83&amp;releaseDate=1612310400&h=4b8323ba33edec0855b66c954f34a2ea" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 
 ## Keitä me olemme ja miksi tämä palvelu on olemassa?
 
