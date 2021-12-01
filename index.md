@@ -33,7 +33,8 @@ Viestit kulkevat verkossa salattuina.
 Siellä on oppilaitosten verkkotunnuksia, kaupunkien ja suomalaisen operaattoreiden eli esim *.inet.fi.**
 
 1. Mene luomaan käyttäjätunnus itsellesi [täällä](https://login.pikaviestin.fi/if/flow/matrix-enrollment/).
-2. Muista vahvistaa käyttäjätunnuksesi saamasi sähköpostin avulla.
+2. Muista vahvistaa käyttäjätunnuksesi saamasi sähköpostin avulla.  
+**HUOM: Linkki tarvitsee avata samassa selaimessa/ikkunassa/tabissa kuin missä rekistöröinti on tehty.**
 3. Mene [tänne](https://chat.pikaviestin.fi) ja kirjaudu sisään.
 4. Ala tsättäämään!
 
