@@ -29,14 +29,15 @@ Viestit kulkevat verkossa salattuina.
 
 ## Miten pääset käyttämään palvelua?
 
-**HUOM: Käytössä on valkoinen lista, jossa listattuna ei ole esim Gmail, Yahoo, Hotmail.  
-Siellä on oppilaitosten verkkotunnuksia, kaupunkien ja suomalaisen operaattoreiden eli esim *.inet.fi.**
+**Rekisteröityminen onnistuu vain sallituista sähköpostiosoitteista, joita ovat esimerkiksi suomalaisten oppilaitosten, kaupunkien, yhdistyisten ja operaattorien osoitteet.** Lista sallituista osoitteista löytyy (hieman vaikealukuisesti) [täältä](https://github.com/matrix-ax/documentation/blob/main/email_validation_policy.py). Mikäli et omista sopivaa sähköpostiosoitetta, voit pyytää kutsun ylläpidolta sähköpostilla yllapito[at]pikaviestin[piste]fi tai julkisessa Matrix-huoneessa [#aula:pikaviestin.fi](https://matrix.to/#/#aula:pikaviestin.fi)
 
 1. Mene luomaan käyttäjätunnus itsellesi [täällä](https://login.pikaviestin.fi/if/flow/matrix-enrollment/).
 2. Muista vahvistaa käyttäjätunnuksesi saamasi sähköpostin avulla.  
-**HUOM: Linkki tarvitsee avata samassa selaimessa/ikkunassa/tabissa kuin missä rekistöröinti on tehty.**
+**HUOM: Linkki tarvitsee avata samassa selaimessa/ikkunassa kuin missä rekistöröinti on tehty.**
 3. Mene [tänne](https://chat.pikaviestin.fi) ja kirjaudu sisään.
 4. Ala tsättäämään!
+
+Sillat muihin viestintäpalveluihin tarjoaa Kapsi Internet-käyttäjät ry. Ohjeet niiden käyttöön löytyvät [täältä](https://www.kapsi.fi/palvelut/matrix.html), _Ohjeita muihin pikaveistinpalveluihin yhdistämiseen_-otsikon alta
 
 ## Asiakasohjelmat
 
