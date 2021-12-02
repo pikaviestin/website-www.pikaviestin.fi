@@ -2,7 +2,7 @@
 title: Pikaviestin suomalaisille
 feature_text: |
   ## Pikaviestin.fi
-  palvelu tarjoaa avoimen Matrix-pikaviestimen käyttöösi
+  Avoin ja turvallinen Matrix-pikaviestin suomalaisille
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Suomalaisille käyttäjille suunnattu avoimeen Matrix-viestiverkkoon perustuva viestipalvelu, jonka avulla voit yhdistää ja käyttää myös lukuisia muita pikaviestimiä"
 ---
@@ -23,39 +23,41 @@ Käyttämällä pikaviestin.fi-palvelua voit tällä hetkellä käyttää samall
 - Telegram
 - WhatsApp
 
+Ohjeet näiden käyttöön löytyvät [täältä](https://www.kapsi.fi/palvelut/matrix.html).
+
 Voit käyttää palvelua tietokoneella sekä puhelimella. Kahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan suljettuja keskusteluja sekä liittyä erilaisiin ryhmiin. Sinun ei tarvitse antaa henkilötietojasi eikä yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tältäkin osalta turvallista myös uusien tuttavuuksien kanssa.
 
 Viestit kulkevat verkossa salattuina.
 
 ## Miten pääset käyttämään palvelua?
 
-**Rekisteröityminen onnistuu vain sallituista sähköpostiosoitteista, joita ovat esimerkiksi suomalaisten oppilaitosten, kaupunkien, yhdistyisten ja operaattorien osoitteet.** Lista sallituista osoitteista löytyy (hieman vaikealukuisesti) [täältä](https://github.com/matrix-ax/documentation/blob/main/email_validation_policy.py). Mikäli et omista sopivaa sähköpostiosoitetta, voit pyytää kutsun ylläpidolta sähköpostilla yllapito[at]pikaviestin[piste]fi tai julkisessa Matrix-huoneessa [#aula:pikaviestin.fi](https://matrix.to/#/#aula:pikaviestin.fi)
+**Rekisteröityminen onnistuu vain sallituista sähköpostiosoitteista, joita ovat esimerkiksi suomalaisten oppilaitosten, kaupunkien, yhdistyisten ja operaattorien osoitteet.** Lista sallituista osoitteista löytyy [täältä](https://github.com/matrix-ax/documentation/blob/main/email_validation_policy.py). Mikäli et omista sopivaa sähköpostiosoitetta, voit pyytää kutsun ylläpidolta sähköpostilla yllapito[at]pikaviestin[piste]fi tai julkisessa Matrix-huoneessa [#aula:pikaviestin.fi](https://matrix.to/#/#aula:pikaviestin.fi)
 
 1. Mene luomaan käyttäjätunnus itsellesi [täällä](https://login.pikaviestin.fi/if/flow/matrix-enrollment/).
 2. Muista vahvistaa käyttäjätunnuksesi saamasi sähköpostin avulla.  
 **HUOM: Linkki tarvitsee avata samassa selaimessa/ikkunassa kuin missä rekistöröinti on tehty.**
 3. Mene [tänne](https://chat.pikaviestin.fi) ja kirjaudu sisään.
-4. Ala tsättäämään!
+4. Ala tsättäämään! Löydät [Matrix Suomi](https://matrix.to/#/#matrix-suomi:kapsi.fi) -ryhmästä satoja julkisia suomenkielisiä keskustelukanavia eri aiheista.
 
 Sillat muihin viestintäpalveluihin tarjoaa Kapsi Internet-käyttäjät ry. Ohjeet niiden käyttöön löytyvät [täältä](https://www.kapsi.fi/palvelut/matrix.html), _Ohjeita muihin pikaveistinpalveluihin yhdistämiseen_-otsikon alta
 
 ## Asiakasohjelmat
 
-Matrix-viestiverkkoa voit käyttää usealla eri asiakasohjelmalla. Tarjoamme selaimella käytettäväksi tällä hetkellä [Element](https://chat.pikaviestin.fi) -ohjelmaa, joka on säädetty toimimaan pikaviestin.fi-palvelun kanssa suoraan parhaalla mahdollisella tavalla. 
+Matrix-viestiverkkoa voit käyttää [usealla eri asiakasohjelmalla](https://matrix.org/clients/) oman makusi mukaan. Tarjoamme selaimella käytettäväksi tällä hetkellä selainpohjaista [Element](https://chat.pikaviestin.fi) -ohjelmaa, joka on säädetty toimimaan pikaviestin.fi-palvelun kanssa suoraan parhaalla mahdollisella tavalla.
 
-Mobiili <a href="https://element.io/">Element</a>:
+### Mobiilisovellukset
 
-<a href='https://play.google.com/store/apps/details?id=im.vector.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/fi_badge_web_generic.png'/></a>  
-<a href="https://apps.apple.com/app/element-messenger/id1083446067?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img height='100' width='200' src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fi-fi?size=250x83&amp;releaseDate=1462406400&h=ddf7313f1d4bd8a37bc50f1c25242da1" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+[Element](https://element.io/): [Android](https://play.google.com/store/apps/details?id=im.vector.app) [iOS](https://apps.apple.com/app/element-messenger/id1083446067)
 
-Mobiili <a href="https://fluffychat.im/en/">FluffyChat</a>:
+[FluffyChat](https://fluffychat.im/): [Android](https://play.google.com/store/apps/details?id=chat.fluffy.fluffychat) [iOS](https://apps.apple.com/app/fluffychat/id1551469600)
 
-<a href='https://play.google.com/store/apps/details?id=chat.fluffy.fluffychat&hl=en&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/fi_badge_web_generic.png'/></a>  
-<a href="https://apps.apple.com/app/fluffychat/id1551469600?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fi-fi?size=250x83&amp;releaseDate=1612310400&h=4b8323ba33edec0855b66c954f34a2ea" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+### Työpöytäsovellukset
+
+[Element](https://element.io/): [Windows, Linux ja MacOS](https://element.io/get-started#download)
 
 ## Keitä me olemme ja miksi tämä palvelu on olemassa?
 
-pikaviestin.fi-palvelua ylläpitää joukko vapaaehtoisia harrastajia, jotka haluavat yhdessä edesauttaa vapaan lähdekoodin, federoidun Matrix-viestipalvelun yleistymistä ja käyttöä. Matrixin teknologia tarjoaa avoimen ja mistään yksittäisestä toimijasta riippumattoman toteutuksen maailmanlaajuiseen viestintään ja kommunikaatioon. 
+pikaviestin.fi-palvelua ylläpitää joukko vapaaehtoisia harrastajia, jotka haluavat yhdessä edesauttaa vapaan lähdekoodin, federoidun Matrix-viestipalvelun yleistymistä ja käyttöä. Matrixin teknologia tarjoaa avoimen ja mistään yksittäisestä toimijasta riippumattoman toteutuksen maailmanlaajuiseen viestintään ja kommunikaatioon.
 
 Ajassa, jossa suositut ja laajalti käytetyt palvelut ovat lähes poikkeuksetta täysin yksitysten yritysten ja toimijoiden hallinnoimia, mahdollistaa Matrix demokratisemman ja mistään yksittäisestä toimijasta riippumattoman viestinnän tarjoten samalla kaikki modernilta viestiratkaisulta vaaditut ominaisuudet.
 
