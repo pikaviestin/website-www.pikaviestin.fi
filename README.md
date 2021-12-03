@@ -39,50 +39,11 @@ Jotta muutokset voi ihmetellä etukäteen, niin jekylliä voi ajella myös paika
 
 [![Gem Version](https://badge.fury.io/rb/alembic-jekyll-theme.svg)](https://badge.fury.io/rb/alembic-jekyll-theme)
 
-⚗ A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
-
-![Screenshot](https://raw.githubusercontent.com/daviddarnes/alembic/master/screenshot.png)
-
-[<img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" width="217"/>](https://buymeacoffee.com/daviddarnes#support)
-
-## Contents
+## Sisältö
 - [www.pikaviestin.fi saitin julkaisu](#wwwpikaviestinfi-saitin-julkaisu)
   - [Uutisen, ohjeen tai linkin lisäys](#uutisen-ohjeen-tai-linkin-lisäys)
   - [Jekyll omalla koneella?](#jekyll-omalla-koneella)
-  - [Contents](#contents)
-  - [About](#about)
-  - [Features](#features)
-  - [Examples](#examples)
-  - [Installation](#installation)
-    - [Quick setup](#quick-setup)
-    - [As a Jekyll theme](#as-a-jekyll-theme)
-    - [As a GitHub Pages remote theme](#as-a-github-pages-remote-theme)
-    - [As a Boilerplate / Fork](#as-a-boilerplate--fork)
-  - [Customising](#customising)
-  - [Configuration](#configuration)
-    - [Gem dependency settings](#gem-dependency-settings)
-    - [Site settings](#site-settings)
-    - [Site performance settings](#site-performance-settings)
-    - [Site navigation](#site-navigation)
-    - [Custom fonts](#custom-fonts)
-  - [Using includes](#using-includes)
-    - [`button.html`](#buttonhtml)
-    - [`figure.html`](#figurehtml)
-    - [`icon.html`](#iconhtml)
-    - [`nav-share.html`](#nav-sharehtml)
-    - [`video.html`](#videohtml)
-    - [`map.html`](#maphtml)
-    - [`site-form.html`](#site-formhtml)
-    - [`site-search.html`](#site-searchhtml)
-    - [`site-before-start.html` \& `site-before-end.html`](#site-before-starthtml--site-before-endhtml)
-  - [Page layouts](#page-layouts)
-  - [Page and Post options](#page-and-post-options)
-  - [Credits](#credits)
-
-## About
-
-**Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate theme is designed to get rolling immediately. Install it, configure it, tweak it, push it.**
-
+  
 ## Features
 
 - Available as a **theme gem** and **GitHub Pages** theme
@@ -112,22 +73,6 @@ Here are a few examples of Alembic out in the wild being used in a variety of wa
 
 ## Installation
 
-### Quick setup
-
-To give you a running start I've put together some starter kits that you can download, fork or even deploy immediately:
-
-- Vanilla Jekyll starter kit:
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit)
-- Forestry starter kit:
-  [![Deploy to Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=daviddarnes/alembic-forestry-kit&engine=jekyll)
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-forestry-kit)
-- Netlify CMS starter kit:
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-netlifycms-kit&stack=cms)
-
-- GitHub Pages with remote theme kit - **[Download kit](https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip)**
-- Stackbit starter kit:
-  [![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/daviddarnes/alembic-stackbit-kit)
-
 ### As a Jekyll theme
 
 1. Add `gem "alembic-jekyll-theme"` to your `Gemfile` to add the theme as a dependancy
@@ -142,17 +87,6 @@ To give you a running start I've put together some starter kits that you can dow
 2. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
 3. Add `jekyll-remote-theme` to the list of `plugins` in your `_config.yml` file
 4. Add `remote_theme: daviddarnes/alembic@main` to your `_config.yml` file to set the site theme
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
-
-### As a Boilerplate / Fork
-
-_(deprecated, not recommended)_
-
-1. [Fork the repo](https://github.com/daviddarnes/alembic#fork-destination-box)
-2. Replace the `Gemfile` with one stating all the gems used in your project
-3. Delete the following unnecessary files/folders: `.github`, `LICENSE`, `screenshot.png`, `CNAME` and `alembic-jekyll-theme.gemspec`
-4. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
 5. Run `bundle exec jekyll serve` to build and serve your site
 6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
 
@@ -331,11 +265,3 @@ There are some more specific options you can apply when creating a page or a pos
 - `indexing: false`: Adds a `noindex` meta element to the `<head>` to stop crawler bots from indexing the page, used on the 404 page
 
 > **Note:** The Post List Page options are actually in the collection data within the `_config.yml` file.
-
-## Credits
-
-- Thanks to [Simple Icons](https://simpleicons.org/) for providing the brand icons, by [Dan Leech](https://twitter.com/bathtype)
-- Thanks to [Sassline](https://sassline.com/) for the typographic basis, by [Jake Giltsoff](https://twitter.com/jakegiltsoff)
-- Thanks to [Flexbox mixin](https://github.com/mastastealth/sass-flex-mixin) by [Brian Franco](https://twitter.com/brianfranco)
-- Thanks to [Normalize](https://necolas.github.io/normalize.css/) by [Nicolas Gallagher](https://twitter.com/necolas) and [Jonathan Neal](https://twitter.com/jon_neal).
-- Thanks to [pygments-css](http://richleland.github.io/pygments-css/) for the autumn syntax highlighting, by [Rich Leland](https://twitter.com/richleland)
