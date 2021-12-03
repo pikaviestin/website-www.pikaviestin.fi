@@ -82,7 +82,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: fi-FI # Set the site language
 title: "pikaviestin.fi" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/matrixfi.png" # Site logo, also used in jekyll-seo-tag
 description: "Pikaviestin.fi on Suomalaisille käyttäjille suunnattu ilmainen Matrix-verkon pikaviestipalvelu." # Site description and default description, also used in jekyll-seo-tag
 url: "https://www.pikaviestin.fi" # Site url, also used in jekyll-seo-tag
 baseurl: ""
