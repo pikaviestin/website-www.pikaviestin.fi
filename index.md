@@ -3,7 +3,7 @@ title: Pikaviestin suomalaisille
 feature_text: |
   ## Pikaviestin.fi
   Avoin ja turvallinen Matrix-pikaviestin suomalaisille
-feature_image: "https://picsum.photos/1300/400?image=989"
+feature_image: "assets/space-blur.png"
 excerpt: "Suomalaisille käyttäjille suunnattu avoimeen Matrix-viestiverkkoon perustuva viestipalvelu, jonka avulla voit yhdistää ja käyttää myös lukuisia muita pikaviestimiä"
 ---
 

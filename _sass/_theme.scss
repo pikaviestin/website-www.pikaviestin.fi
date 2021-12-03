@@ -50,6 +50,10 @@ body {
   background: $featureBackgroundColour;
   background-size: cover;
   background-position: center;
+  color: $backgroundColour;
+  h2 {
+    color: $backgroundColour;
+  }
   .container {
     min-height: 35vh;
     max-width: 60%;
