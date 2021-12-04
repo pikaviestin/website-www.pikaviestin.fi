@@ -64,7 +64,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "/assets/default-social-image.png" # Default image for sharing
+      image: "/assets/space-blur.png" # Default image for sharing
   -
     scope:
       path: ""
