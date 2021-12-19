@@ -34,8 +34,7 @@ Viestit kulkevat verkossa salattuina.
 **Rekisteröityminen onnistuu vain sallituista sähköpostiosoitteista, joita ovat esimerkiksi suomalaisten oppilaitosten, kaupunkien, yhdistyisten ja operaattorien osoitteet.** Lista sallituista osoitteista löytyy [täältä](https://github.com/matrix-ax/documentation/blob/main/email_validation_policy.py). Mikäli et omista sopivaa sähköpostiosoitetta, voit pyytää kutsun ylläpidolta sähköpostilla yllapito[at]pikaviestin[piste]fi tai julkisessa Matrix-huoneessa [#aula:pikaviestin.fi](https://matrix.to/#/#aula:pikaviestin.fi)
 
 1. Mene luomaan käyttäjätunnus itsellesi [täällä](https://login.pikaviestin.fi/if/flow/matrix-enrollment/).
-2. Muista vahvistaa käyttäjätunnuksesi saamasi sähköpostin avulla.  
-**HUOM: Linkki tarvitsee avata samassa selaimessa/ikkunassa kuin missä rekistöröinti on tehty.**
+2. Muista vahvistaa käyttäjätunnuksesi saamasi sähköpostin avulla.
 3. Mene [tänne](https://chat.pikaviestin.fi) ja kirjaudu sisään.
 4. Ala tsättäämään! Löydät [Matrix Suomi](https://matrix.to/#/#matrix-suomi:kapsi.fi) -ryhmästä satoja julkisia suomenkielisiä keskustelukanavia eri aiheista.
 
