@@ -1,0 +1,61 @@
+
+
+[
+  
+  
+    
+    
+      {
+        "title": "Pikaviestin.fi-palvelua pystytetään",
+        "excerpt": "Projektin säätäjät ovat kokontuneet sekä paikallisesti, että virtuaalisesti yhteen laittamaan projektia viimein eteenpäin. Tästä se lähtee!\n\nIllan agendana on ollut saada tämä verkkosivusto edes jonkinlaisena skeletonina julkaistuksi ja palvelun perustekniikka ajoon edes sellaiselle tasolle, että pääsemme itse testaamaan palvelun ja varmistamaan kaikkien komponenttien toiminnan.\n",
+        "content": "Projektin säätäjät ovat kokontuneet sekä paikallisesti, että virtuaalisesti yhteen laittamaan projektia viimein eteenpäin. Tästä se lähtee!\n\nIllan agendana on ollut saada tämä verkkosivusto edes jonkinlaisena skeletonina julkaistuksi ja palvelun perustekniikka ajoon edes sellaiselle tasolle, että pääsemme itse testaamaan palvelun ja varmistamaan kaikkien komponenttien toiminnan.\n",
+        "url": "/uutiset/2021/09/25/pikaviestin.fi-pystytys/"
+      },
+    
+      {
+        "title": "Pikaviestin.fi-palvelu on käytettävissä",
+        "excerpt": "Olemme vihdoin saaneet Pikaviestimen käyttökuntoon, ja nyt Suomalaiset käyttäjät voivatkin rekistöröityä sinne täällä.\n",
+        "content": "Olemme vihdoin saaneet Pikaviestimen käyttökuntoon, ja nyt Suomalaiset käyttäjät voivatkin rekistöröityä sinne täällä.\n",
+        "url": "/uutiset/2021/11/30/pikaviestin.fi-live/"
+      },
+    
+      {
+        "title": "Kuinka saan pikaviestin.fi-palvelun käyttöön",
+        "excerpt": "Palvelu on tarkoitettu Suomalaisille, Suomea puhuville tai muutoin vahvat siteet Suomeen omaaville käyttäjille. Häirinnän minimoimiseksi annamme tunnuksen käyttöön pyyntöä vastaan. Toimi näin…\n\n",
+        "content": "Palvelu on tarkoitettu Suomalaisille, Suomea puhuville tai muutoin vahvat siteet Suomeen omaaville käyttäjille. Häirinnän minimoimiseksi annamme tunnuksen käyttöön pyyntöä vastaan. Toimi näin…\n\n\n\nMikäli et pysty itse tunnusta luomaan osoitteessa: https://login.pikaviestin.fi/if/flow/matrix-enrollment/, esimerkiksi whitelistan vuoksi niin seuraa seuraavia ohjeita.\n\n\n  Lähetä sähköposti tunnuksen haluamisesta osoitteeseen yllapito(at)pikaviestin(piste)fi\n  Odota vastausta.\n  Saat palauupostina linkin, jolla pääset sen luomaan itse.\n  Ala tsättäämään!\n\n",
+        "url": "/ohjeet/2021/12/19/ohje-tunnuksen-luonti/"
+      },
+    
+  
+  
+  
+  {
+    "title": "Categories",
+    "excerpt": "Category index\n",
+    "content": "\n",
+    "url": "/categories/"
+  },
+  
+  {
+    "title": "Elements",
+    "excerpt": "A demo of Markdown and HTML includes\n",
+    "content": "Heading 1\n\nHeading 2\n\nHeading 3\n\nHeading 4\n\nHeading 5\n\nHeading 6\n\nA small element\n\nA link\n\nLorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.\n\nDuis aute irure dolor in A link reprehenderit in voluptate velit esse cillum bold text dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt italicised text in culpa qui officia deserunt mollit anim id some code est laborum.\n\n\n  An item\n  An item\n  An item\n  An item\n  An item\n\n\n\n  Item one\n  Item two\n  Item three\n  Item four\n  Item five\n\n\n\n  A simple blockquote\n\n\nSome HTML…\n\n&lt;blockquote cite=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;\n  &lt;p&gt;You planning a vacation, Mr. Sullivan?&lt;/p&gt;\n  &lt;footer&gt;\n    &lt;a href=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;Sunways Security Guard&lt;/a&gt;\n  &lt;/footer&gt;\n&lt;/blockquote&gt;\n\n\n…CSS…\n\nblockquote {\n  text-align: center;\n  font-weight: bold;\n}\nblockquote footer {\n  font-size: .8rem;\n}\n\n\n…and JavaScript\n\nconst blockquote = document.querySelector(\"blockquote\")\nconst bolden = (keyString, string) =&gt;\n  string.replace(new RegExp(keyString, 'g'), '&lt;strong&gt;'+keyString+'&lt;/strong&gt;')\n\nblockquote.innerHTML = bolden(\"Mr. Sullivan\", blockquote.innerHTML)\n\n\nSingle line of code\n\nHTML Includes\n\nContact form\n\n\n  \n    Contact\n    Name: *\n    \n\n    Email Address: *\n    \n\n    Message: *\n    \n\n    \n    \n    * indicates a required field\n\n    \n      \n      \n      \n    \n  \n\n\n\n\nPlease enable JavaScript to use the form.\n\n{% include site-form.html %}\n\n\nDemo map embed\n\n\n\n{% include map.html id=\"XXXXXX\" title=\"Coffee shop map\" %}\n\n\nButton include\n\nA button\n\nA button with icon  twitter\n\n\n{% include button.html text=\"A button\" link=\"https://david.darn.es\" %}\n{% include button.html text=\"A button with icon\" link=\"https://twitter.com/daviddarnes\" icon=\"twitter\" %}\n\n\nIcon include\n\ntwitter\ntwitter\n\n\n{% include icon.html id=\"twitter\" title=\"twitter\" %}\n[{% include icon.html id=\"linkedin\" title=\"twitter\" %}](https://www.linkedin.com/in/daviddarnes)\n\n\nVideo include\n\n\n  \n\n\n{% include video.html id=\"zrkcGL5H3MU\" title=\"Siteleaf tutorial video\" %}\n\n\nImage includes\n\n\n  \n  Image with caption\n\n\n\n  \n  Right aligned image\n\n\n\n  \n  Left aligned image\n\n\n\n  \n  \n\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Image with caption\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Right aligned image\" position=\"right\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Left aligned image\" position=\"left\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/1600/800?image=894\" alt=\"Image with just alt text\" %}\n\n",
+    "url": "/elements/"
+  },
+  
+  {
+    "title": "Pikaviestin suomalaisille",
+    "excerpt": "Suomalaisille käyttäjille suunnattu avoimeen Matrix-viestiverkkoon perustuva viestipalvelu, jonka avulla voit yhdistää ja käyttää myös lukuisia muita pikaviestimiä\n",
+    "content": "Suomalaisille käyttäjille suunnattu avoimeen Matrix-viestiverkkoon perustuva viestipalvelu, jonka avulla voit yhdistää ja käyttää myös lukuisia muita pikaviestimiä.\n\nMiksi käyttäisit pikaviestin.fi -palvelua?\n\nPikaviestimet ovat näppärä yhteydenpitoväline niin puhelimella kuin tietokoneella käytettynä, mutta palveluiden suuren määrän takia joudut usein käyttämään eri pikaviestimiä eri henkilöiden tavoittamiseen. Matrix-pikaviestiverkkoon perustuva viestipalvelumme toimii itsessään viestintäkanavana, mutta tarjoaa samalla mahdollisuuden yhdistää useita muita pikaviestipalveluja saman sovelluksen kautta käytettäväksi.\n\nKäyttämällä pikaviestin.fi-palvelua voit tällä hetkellä käyttää samalla myös seuraavia muita viestintäpalveluita:\n\n\n  Telegram\n  Discord\n  Signal\n  IRC\n  Slack\n  WhatsApp\n  Facebook Messenger\n\n\nOhjeet näiden käyttöön löytyvät täältä.\n\nVoit käyttää palvelua tietokoneella sekä puhelimella ja valita mieleisesi useasta vaihtoehdosta sovelluksesta.\n\nKahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan suljettuja keskusteluja sekä liittyä erilaisiin ryhmiin. Sinun ei tarvitse antaa henkilötietojasi eikä yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tältäkin osalta turvallista myös uusien tuttavuuksien kanssa.\n\nViestit kulkevat verkossa salattuina.\n\nMiten pääset käyttämään palvelua?\n\nRekisteröityminen onnistuu vain sallituista sähköpostiosoitteista, joita ovat esimerkiksi suomalaisten oppilaitosten, kaupunkien, yhdistyisten ja operaattorien osoitteet. Lista sallituista osoitteista löytyy täältä. Mikäli et omista sopivaa sähköpostiosoitetta, voit pyytää kutsun ylläpidolta sähköpostilla yllapito[at]pikaviestin[piste]fi tai julkisessa Matrix-huoneessa #aula:pikaviestin.fi\n\n\n  Mene luomaan käyttäjätunnus itsellesi täällä.\n  Muista vahvistaa käyttäjätunnuksesi saamasi sähköpostin avulla.\n  Mene tänne ja kirjaudu sisään.\n  Ala tsättäämään! Löydät Matrix Suomi -ryhmästä satoja julkisia suomenkielisiä keskustelukanavia eri aiheista.\n\n\nSillat muihin viestintäpalveluihin tarjoaa Kapsi Internet-käyttäjät ry. Ohjeet niiden käyttöön löytyvät täältä, Ohjeita muihin pikaveistinpalveluihin yhdistämiseen-otsikon alta\n\nAsiakasohjelmat\n\nMatrix-viestiverkkoa voit käyttää usealla eri asiakasohjelmalla oman makusi mukaan. Tarjoamme selaimella käytettäväksi tällä hetkellä selainpohjaista Element -ohjelmaa, joka on säädetty toimimaan pikaviestin.fi-palvelun kanssa suoraan parhaalla mahdollisella tavalla.\n\nMobiilisovellukset\n\nElement: Android iOS\n\nFluffyChat: Android iOS\n\nTyöpöytäsovellukset\n\nElement: Windows, Linux ja MacOS\n\nKeitä me olemme ja miksi tämä palvelu on olemassa?\n\npikaviestin.fi-palvelua ylläpitää joukko vapaaehtoisia harrastajia, jotka haluavat yhdessä edesauttaa vapaan lähdekoodin, federoidun Matrix-viestipalvelun yleistymistä ja käyttöä. Matrixin teknologia tarjoaa avoimen ja mistään yksittäisestä toimijasta riippumattoman toteutuksen maailmanlaajuiseen viestintään ja kommunikaatioon.\n\nAjassa, jossa suositut ja laajalti käytetyt palvelut ovat lähes poikkeuksetta täysin yksitysten yritysten ja toimijoiden hallinnoimia, mahdollistaa Matrix demokratisemman ja mistään yksittäisestä toimijasta riippumattoman viestinnän tarjoten samalla kaikki modernilta viestiratkaisulta vaaditut ominaisuudet.\n\nTietosuoja\n\nTämä palvelu on tarkoitettu Suomessa asuville käyttäjille. Palvelu tallentaa käyttäjän syöttämät tiedot sekä viestihistorian palvelun toteutuksen vaatimalla tavalla. Ylläpidolla ei ole pääsyä viesteihin niiltä osin, kun ne on salattu End-to-End (E2EE) -menetelmin. Viestinnän salaus on käyttäjän itsensä hallittavissa.\n\nKaikki viestiliikenne on verkkotasolla HTTPS-menetelmällä salattua, joten tietoja ei liiku verkossa salaamattomana.\n\nPalvelun tietosuojaseloste löytyy linkin takaa.\n",
+    "url": "/"
+  },
+  
+  {
+    "title": "Search",
+    "excerpt": "Search for a page or post you’re looking for\n",
+    "content": "{% include site-search.html %}\n",
+    "url": "/search/"
+  }
+  
+]
+
