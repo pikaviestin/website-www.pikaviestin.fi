@@ -1,13 +1,10 @@
 ---
 title: Pikaviestin suomalaisille
-feature_text: |
-  ## Pikaviestin.fi
-  Avoin ja turvallinen Matrix-pikaviestin suomalaisille
 feature_image: "assets/space-blur.png"
 excerpt: "Suomalaisille käyttäjille suunnattu avoimeen Matrix-viestiverkkoon perustuva viestipalvelu, jonka avulla voit yhdistää ja käyttää myös lukuisia muita pikaviestimiä"
 ---
 
-Suomalaisille käyttäjille suunnattu avoimeen Matrix-viestiverkkoon perustuva viestipalvelu, jonka avulla voit yhdistää ja käyttää myös lukuisia muita pikaviestimiä.
+Suomalaisille käyttäjille suunnattu avoimeen [Matrix-viestiverkkoon](https://joinmatrix.org/) perustuva viestipalvelu, jonka avulla voit yhdistää ja käyttää myös lukuisia muita pikaviestimiä.
 
 ## Miksi käyttäisit pikaviestin.fi -palvelua?
 
@@ -15,17 +12,19 @@ Pikaviestimet ovat näppärä yhteydenpitoväline niin puhelimella kuin tietokon
 
 Käyttämällä pikaviestin.fi-palvelua voit tällä hetkellä käyttää samalla myös seuraavia muita viestintäpalveluita:
 
-- Facebook Messenger
-- IRC
+- Telegram
 - Discord
 - Signal
+- IRC
 - Slack
-- Telegram
 - WhatsApp
+- Facebook Messenger
 
 Ohjeet näiden käyttöön löytyvät [täältä](https://www.kapsi.fi/palvelut/matrix.html).
 
-Voit käyttää palvelua tietokoneella sekä puhelimella. Kahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan suljettuja keskusteluja sekä liittyä erilaisiin ryhmiin. Sinun ei tarvitse antaa henkilötietojasi eikä yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tältäkin osalta turvallista myös uusien tuttavuuksien kanssa.
+Voit käyttää palvelua tietokoneella sekä puhelimella ja valita mieleisesi useasta vaihtoehdosta sovelluksesta.
+
+Kahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan suljettuja keskusteluja sekä liittyä erilaisiin ryhmiin. Sinun ei tarvitse antaa henkilötietojasi eikä yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tältäkin osalta turvallista myös uusien tuttavuuksien kanssa.
 
 Viestit kulkevat verkossa salattuina.
 
