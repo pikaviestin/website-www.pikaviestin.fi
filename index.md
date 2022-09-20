@@ -1,13 +1,10 @@
 ---
 title: Pikaviestin suomalaisille
-feature_text: |
-  ## Pikaviestin.fi
-  Avoin ja turvallinen Matrix-pikaviestin suomalaisille
 feature_image: "assets/space-blur.png"
 excerpt: "Suomalaisille käyttäjille suunnattu avoimeen Matrix-viestiverkkoon perustuva viestipalvelu, jonka avulla voit yhdistää ja käyttää myös lukuisia muita pikaviestimiä"
 ---
 
-Suomalaisille käyttäjille suunnattu avoimeen Matrix-viestiverkkoon perustuva viestipalvelu, jonka avulla voit yhdistää ja käyttää myös lukuisia muita pikaviestimiä.
+Suomalaisille käyttäjille suunnattu avoimeen [Matrix-viestiverkkoon](https://joinmatrix.org/) perustuva viestipalvelu, jonka avulla voit yhdistää ja käyttää myös lukuisia muita pikaviestimiä.
 
 ## Miksi käyttäisit pikaviestin.fi -palvelua?
 
@@ -15,27 +12,28 @@ Pikaviestimet ovat näppärä yhteydenpitoväline niin puhelimella kuin tietokon
 
 Käyttämällä pikaviestin.fi-palvelua voit tällä hetkellä käyttää samalla myös seuraavia muita viestintäpalveluita:
 
-- Facebook Messenger
-- IRC
+- Telegram
 - Discord
 - Signal
+- IRC
 - Slack
-- Telegram
 - WhatsApp
+- Facebook Messenger
 
 Ohjeet näiden käyttöön löytyvät [täältä](https://www.kapsi.fi/palvelut/matrix.html).
 
-Voit käyttää palvelua tietokoneella sekä puhelimella. Kahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan suljettuja keskusteluja sekä liittyä erilaisiin ryhmiin. Sinun ei tarvitse antaa henkilötietojasi eikä yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tältäkin osalta turvallista myös uusien tuttavuuksien kanssa.
+Voit käyttää palvelua tietokoneella sekä puhelimella ja valita mieleisesi useasta vaihtoehdosta sovelluksesta.
+
+Kahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan suljettuja keskusteluja sekä liittyä erilaisiin ryhmiin. Sinun ei tarvitse antaa henkilötietojasi eikä yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tältäkin osalta turvallista myös uusien tuttavuuksien kanssa.
 
 Viestit kulkevat verkossa salattuina.
 
 ## Miten pääset käyttämään palvelua?
 
-**Rekisteröityminen onnistuu vain sallituista sähköpostiosoitteista, joita ovat esimerkiksi suomalaisten oppilaitosten, kaupunkien, yhdistyisten ja operaattorien osoitteet.** Lista sallituista osoitteista löytyy [täältä](https://github.com/matrix-ax/documentation/blob/main/email_validation_policy.py). Mikäli et omista sopivaa sähköpostiosoitetta, voit pyytää kutsun ylläpidolta sähköpostilla yllapito[at]pikaviestin[piste]fi tai julkisessa Matrix-huoneessa [#aula:pikaviestin.fi](https://matrix.to/#/#aula:pikaviestin.fi)
+**Rekisteröityminen onnistuu vain sallituista sähköpostiosoitteista, joita ovat esimerkiksi suomalaisten oppilaitosten, kaupunkien, yhdistyisten ja operaattorien osoitteet.** Lista sallituista osoitteista löytyy [täältä](https://github.com/pikaviestin/documentation/blob/main/email_validation_policy.py). Mikäli et omista sopivaa sähköpostiosoitetta, voit pyytää kutsun ylläpidolta sähköpostilla yllapito[at]pikaviestin[piste]fi tai julkisessa Matrix-huoneessa [#aula:pikaviestin.fi](https://matrix.to/#/#aula:pikaviestin.fi)
 
 1. Mene luomaan käyttäjätunnus itsellesi [täällä](https://login.pikaviestin.fi/if/flow/matrix-enrollment/).
-2. Muista vahvistaa käyttäjätunnuksesi saamasi sähköpostin avulla.  
-**HUOM: Linkki tarvitsee avata samassa selaimessa/ikkunassa kuin missä rekistöröinti on tehty.**
+2. Muista vahvistaa käyttäjätunnuksesi saamasi sähköpostin avulla.
 3. Mene [tänne](https://chat.pikaviestin.fi) ja kirjaudu sisään.
 4. Ala tsättäämään! Löydät [Matrix Suomi](https://matrix.to/#/#matrix-suomi:kapsi.fi) -ryhmästä satoja julkisia suomenkielisiä keskustelukanavia eri aiheista.
 

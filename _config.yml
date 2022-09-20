@@ -64,7 +64,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "/assets/default-social-image.png" # Default image for sharing
+      image: "/assets/space-blur.png" # Default image for sharing
   -
     scope:
       path: ""
@@ -82,7 +82,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: fi-FI # Set the site language
 title: "pikaviestin.fi" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/matrixfi.png" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/vp_ikoni_b.png" # Site logo, also used in jekyll-seo-tag
 description: "Pikaviestin.fi on Suomalaisille käyttäjille suunnattu ilmainen Matrix-verkon pikaviestipalvelu." # Site description and default description, also used in jekyll-seo-tag
 url: "https://www.pikaviestin.fi" # Site url, also used in jekyll-seo-tag
 baseurl: ""
@@ -99,15 +99,17 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 destination: ./build
 
 # 8. Site favicons & manifest icons
+
+# Nää ei tee mitään.
 #favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-#  16: '/assets/logos/logo@16px.png'
-#  32: '/assets/logos/logo@32px.png'
-#  96: '/assets/logos/logo@96px.png'
-#  120: '/assets/logos/logo@120px.png'
-#  144: '/assets/logos/logo@144px.png'
-#  180: '/assets/logos/logo@180px.png'
-#  512: '/assets/logos/logo@512px.png'
-#  1024: '/assets/logos/logo@1024px.png'
+#  16: '/assets/favicon.ico'
+#  32: '/assets/favicon.ico'
+#  96: '/assets/favicon.ico'
+#  120: '/assets/favicon.ico'
+#  144: '/assets/favicon.ico'
+#  180: '/assets/favicon.ico'
+#  515: '/assets/favicon.ico'
+#  1024: '/assets/favicon.ico'
 
 # 9. Site navigation
 navigation_header:
@@ -131,8 +133,7 @@ navigation_footer:
   url: https://www.kapsi.fi
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/pikaviestin
-  GitHub: https://github.com/matrix-ax
+  GitHub: https://github.com/pikaviestin
   RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
