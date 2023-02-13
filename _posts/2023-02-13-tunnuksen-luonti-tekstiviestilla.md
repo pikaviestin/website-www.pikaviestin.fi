@@ -1,5 +1,5 @@
 ---
-title: Pikaviestin.fi-palveluun on nyt mahdollista rekistöröityä tekstiviesti vahvistuksella
+title: Pikaviestin.fi-palveluun on nyt mahdollista rekistöröityä tekstiviestivahvistuksella
 categories:
 - Uutiset
 feature_image: "https://picsum.photos/2560/600?image=872"
