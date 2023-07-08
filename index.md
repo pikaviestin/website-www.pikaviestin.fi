@@ -23,11 +23,11 @@ pikaviestin.fi toimii palveluntarjoajana ja tarjoaa sinulle kayttajatunnuksen jo
 
 ## Miten pääset käyttämään palvelua?
 
-Käyttäjätunnuksen luonti on helppoa ja toimii kuin mihin tahansa palveluun rekisteroöityminen:
+Käyttäjätunnuksen luonti on helppoa ja toimii kuin mihin tahansa palveluun rekisteröityminen:
 1. Luo itsellesi käyttäjätunnus pikaviestin.fi palveluun täyttämällä alla olevasta linkista rekisteröintikaavake. Rekisteröintitiedot ja käyttäjävarmennus kerätään väärinkäytön ehkäisemiseksi. Käsittelemme tietojasi [tietosuojaselosteemme](https://www.pikaviestin.fi/tietosuojaseloste.pdf) mukaisesti.
 - [Kaavake ](https://login.pikaviestin.fi/if/flow/enrollment-with-sms-verification/) (suositeltu) - käyttäjä varmennetaan tekstiveistitse. Tai 
 - [Kaavake ](https://login.pikaviestin.fi/if/flow/matrix-enrollment/) - käyttäjä varmennetaan sähköpotitse. **Huom.** Voit käyttää sähköpostivarmennetta vain, jos sinulla on tunnettun suomalaisen instituution sähköpostiosoite[^1]. 
-2. Muista vahvista käyttäjätunnuksesi saamasi tekstiviestin (tai sähköpostin) avulla.
+2. Muista vahvistaa käyttäjätunnuksesi saamasi tekstiviestin (tai sähköpostin) avulla.
 3. [Lataa](https://element.io/download) ja asenna Element-ohjelmisto puhelimeesi, tablettiisi tai tietokoneellesi. Kotipalvelimesi (_engl._ homeserver) on `pikaviestin.fi`.
 5. Aloita keskustelut Matrix-viestiverkossa. Käyttäjätunnuksesi eli osoitteesi josta sinut tavoittaa (vrt. sähköpostiosoite) on muotoa `@käyttäjätunnuksesi:pikaviestin.fi`. 
 
