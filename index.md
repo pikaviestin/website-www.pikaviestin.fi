@@ -7,11 +7,11 @@ excerpt: "Suomalaisille käyttäjille suunnattu avoimeen Matrix-viestiverkkoon p
 Suomalaisille käyttäjille suunnattu [Matrix-viestiverkkoon](#mikä-on-matrix-viestiverkko) perustuva kaikille avoin ja maksuton viestipalvelu. 
 
 Ota käyttöön ilmaiseksi luomalla [käyttäjätunnus](https://login.pikaviestin.fi/if/flow/enrollment-with-sms-verification/) ja asentamalla [sovellus](https://element.io/download).
-Löydät tarkemmat [rekisteröitymisohjeet](#miten-pääset-käyttämään-palvelua) sekä lisätietoa [meistä](#keitä-me-olemme) ja [palvelustamme](miksi-käyttäisit-pikaviestinfi--palvelua) alta.
+Löydät tarkemmat [rekisteröitymisohjeet](#miten-pääset-käyttämään-palvelua) sekä lisätietoa [meistä](#keitä-me-olemme) ja [palvelustamme](#miksi-käyttäisit-pikaviestinfi--palvelua) alta.
 
 ## Mikä on matrix-viestiverkko
 
-[Matrix-viestiverkkossa](https://joinmatrix.org/) voit turvallisesti viestitellä perheenjäsenten, tuttavien ja kavereiden kanssa salatun yhteyden välityksellä. Voit lähettää kuvia, tiedostoja, ääniviestejä sekä soittaa ääni ja videopuheluja. Kahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan suljettuja keskusteluja sekä liittyä erilaisiin yleisiin keskusteluryhmiin ja yhteisöihin. Palvelu tarjoaakin kaiken, mitä nykyaikaiselta pikaviestipalvelulta odotatkin.
+[Matrix-viestiverkkossa](https://joinmatrix.org/) voit turvallisesti viestitellä perheenjäsenten, tuttavien ja kavereiden kanssa salatun yhteyden välityksellä. Voit lähettää kuvia, tiedostoja, ääniviestejä sekä soittaa ääni ja videopuheluja. Kahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan yksityisiä ryhmäkeskusteluja sekä liittyä erilaisiin yleisiin keskusteluryhmiin ja yhteisöihin. Palvelu tarjoaakin kaiken, mitä nykyaikaiselta pikaviestipalvelulta odotatkin.
 Sinun ei tarvitse antaa nimeäsi, puhelinnumeroasi tai muita yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tarvittaessa anonyymiä ja siten turvallista esimerkiksi uusien tuttavuuksien kanssa. Matrix-pikaveistinverkon palveluita voit käyttää puhelimella, tietkoneella tai tabletilla. Aloita [rekisteröitymällä](#miten-pääset-käyttämään-palvelua).
 
 ## Miksi käyttäisit pikaviestin.fi -palvelua?
@@ -33,7 +33,7 @@ Käyttäjätunnuksen luonti on helppoa ja toimii kuin mihin tahansa palveluun re
 
 Jos löysit tänne ystäväsi kutsusta, on hän antanut sinulle osoitteensa muodossa `@ystäväsi:hänen.palveluntarjoajansa` ja voit nyt olla häneen yhteydessä. Löydät lisäksi esim. [Matrix Suomi](https://matrix.to/#/#matrix-suomi:kapsi.fi) -ryhmästä satoja julkisia suomenkielisiä keskustelukanavia eri aiheista.
 
-[^1]: Rekisteröityminen sähköpostivarmenteen avulla onnistuu vain sallituista sähköpostiosoitteista. Jos sinulla ei ole soveltuvaa suomalaisen tunnetun instituution ([lista](https://github.com/pikaviestin/documentation/blob/main/email_validation_policy.py)) sähköpostia etkä halua käyttää tekstiveistivarmennusta, voit pyytää rekisteröitymistä ylläpidolta sähköpostilla yllapito[at]pikaviestin[piste]fi tai julkisessa Matrix-huoneessa [#aula:pikaviestin.fi](https://matrix.to/#/#aula:pikaviestin.fi) 
+[^1]: Rekisteröityminen sähköpostivarmenteen avulla onnistuu vain sallituista sähköpostiosoitteista. Jos sinulla ei ole soveltuvaa suomalaisen tunnetun instituution ([lista](https://github.com/pikaviestin/documentation/blob/main/email_validation_policy.py)) sähköpostia etkä halua käyttää tekstiveistivarmennusta, voit pyytää rekisteröitymistä ylläpidolta sähköpostilla yllapito[at]pikaviestin[piste]fi tai julkisessa Matrix-huoneessa [#aula:pikaviestin.fi](https://matrix.to/#/#aula:pikaviestin.fi).  
 
 ## Keitä me olemme 
 
