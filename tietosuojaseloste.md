@@ -4,7 +4,7 @@
 Nimi: Pikaviestin.fi yhteisö
 
 ## 2. Yhteystiedot rekisteriä koskevissa asioissa
-Nimi: Pikaviestin.fi ylläpito
+Nimi: Skyler Mäntysaari
 Sähköposti: tietosuoja@pikaviestin.fi
 
 ## 3. Rekisterin nimi
