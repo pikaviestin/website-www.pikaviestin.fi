@@ -4,7 +4,7 @@ feature_image: "assets/space-blur.png"
 excerpt: "Tarjoamme suomalaisille käyttäjille verkkopalveluita ilmaiseksi"
 ---
 
-Tarjoamme Suomalaisille avoimia verkkopalveluita vapaaehtoisvoimin. Kaikki palvelut toimivat samoilla tunnuksilla.
+Tarjoamme suomalaisille avoimia viestintäpalveluita vapaaehtoisvoimin. Kaikki palvelut toimivat samoilla tunnuksilla.
 
 * [Matrix - Pikaviestin](/matrix) *kuten Discord, Slack, WhatsApp, jne*
 * [Mastodon - Mikroblogi](/mastodon) *kuten Twitter tai BlueSky*
