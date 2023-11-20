@@ -22,7 +22,7 @@ jobs:
       - name: Generate PDF of Tietosuojaseloste
         run: md-to-pdf tietosuojaseloste.md
       - name: Build site
-        uses: dVerschaeve/jekyll-build-action@5655d169f8faaa26b09de62f050807a31f8f200d # https://github.com/jerryjvl/jekyll-build-action/issues/1
+        uses: nigelbritton/jekyll-build-action@v1.1
       - name: Copy CNAME and PDF
         run:
          sudo cp CNAME build/ && sudo cp tietosuojaseloste.pdf build/
