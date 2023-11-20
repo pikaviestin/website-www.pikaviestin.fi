@@ -41,4 +41,4 @@ jobs:
          directory: build
          branch: gh-pages
          force: true
-         commit_message: 🧪 Deploy with ${GITHUB_WORKFLOW}
+         message: 🧪 Deploy with ${GITHUB_WORKFLOW}
