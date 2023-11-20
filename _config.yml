@@ -115,18 +115,16 @@ destination: ./build
 navigation_header:
 - title: Etusivu
   url: /
-- title: Web chat
+- title: Mastodon
+  url: https://sauna.social/
+- title: Mobilizon
+  url: https://järkkää.fi/
+- title: Matrix
   url: https://chat.pikaviestin.fi
-- title: Cinny
-  url: https://cinny.pikaviestin.fi
 - title: Uutiset
   url: /blog/
 - title: Tietosuojaseloste
   url: /tietosuojaseloste.pdf
-- title: Categories
-  url: /categories/
-- title: Search
-  url: /search/
 
 navigation_footer:
 - title: Tekniset resurssit tarjoaa Kapsi Internet-käyttäjät ry
