@@ -115,12 +115,12 @@ destination: ./build
 navigation_header:
 - title: Etusivu
   url: /
-- title: Mastodon
-  url: https://sauna.social/
-- title: Mobilizon
-  url: https://järkkää.fi/
 - title: Matrix
-  url: https://chat.pikaviestin.fi
+  url: /matrix/
+- title: Mastodon
+  url: /mastodon/
+- title: Mobilizon
+  url: /mobilizon/
 - title: Uutiset
   url: /blog/
 - title: Tietosuojaseloste
