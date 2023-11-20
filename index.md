@@ -12,7 +12,7 @@ Löydät tarkemmat [rekisteröitymisohjeet](#miten-pääset-käyttämään-palve
 ## Mikä on matrix-viestiverkko
 
 [Matrix-viestiverkkossa](https://joinmatrix.org/) voit turvallisesti viestitellä perheenjäsenten, tuttavien ja kavereiden kanssa salatun yhteyden välityksellä. Voit lähettää kuvia, tiedostoja, ääniviestejä sekä soittaa ääni ja videopuheluja. Kahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan yksityisiä ryhmäkeskusteluja sekä liittyä erilaisiin yleisiin keskusteluryhmiin ja yhteisöihin. Palvelu tarjoaakin kaiken, mitä nykyaikaiselta pikaviestipalvelulta odotatkin.
-Sinun ei tarvitse antaa nimeäsi, puhelinnumeroasi tai muita yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tarvittaessa anonyymiä ja siten turvallista esimerkiksi uusien tuttavuuksien kanssa. Matrix-pikaveistinverkon palveluita voit käyttää puhelimella, tietkoneella tai tabletilla. Aloita [rekisteröitymällä](#miten-pääset-käyttämään-palvelua).
+Sinun ei tarvitse antaa nimeäsi, puhelinnumeroasi tai muita yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tarvittaessa anonyymiä ja siten turvallista esimerkiksi uusien tuttavuuksien kanssa. Matrix-pikaviestinverkon palveluita voit käyttää puhelimella, tietkoneella tai tabletilla. Aloita [rekisteröitymällä](#miten-pääset-käyttämään-palvelua).
 
 ## Miksi käyttäisit pikaviestin.fi -palvelua?
 
@@ -25,7 +25,7 @@ pikaviestin.fi toimii palveluntarjoajana ja tarjoaa sinulle kayttajatunnuksen jo
 
 Käyttäjätunnuksen luonti on helppoa ja toimii kuin mihin tahansa palveluun rekisteröityminen:
 1. Luo itsellesi käyttäjätunnus pikaviestin.fi palveluun täyttämällä alla olevasta linkista rekisteröintikaavake. Rekisteröintitiedot ja käyttäjävarmennus kerätään väärinkäytön ehkäisemiseksi. Käsittelemme tietojasi [tietosuojaselosteemme](https://www.pikaviestin.fi/tietosuojaseloste.pdf) mukaisesti.
-- [Kaavake ](https://login.pikaviestin.fi/if/flow/enrollment-with-sms-verification/) (suositeltu) - käyttäjä varmennetaan tekstiveistitse. Tai 
+- [Kaavake ](https://login.pikaviestin.fi/if/flow/enrollment-with-sms-verification/) (suositeltu) - käyttäjä varmennetaan tekstiviestitse. Tai 
 - [Kaavake ](https://login.pikaviestin.fi/if/flow/matrix-enrollment/) - käyttäjä varmennetaan sähköpotitse. **Huom.** Voit käyttää sähköpostivarmennetta vain, jos sinulla on tunnettun suomalaisen instituution sähköpostiosoite[^1]. 
 2. Muista vahvistaa käyttäjätunnuksesi saamasi tekstiviestin (tai sähköpostin) avulla.
 3. [Lataa](https://element.io/download) ja asenna Element-ohjelmisto puhelimeesi, tablettiisi tai tietokoneellesi. Kotipalvelimesi (_engl._ homeserver) on `pikaviestin.fi`.
@@ -33,7 +33,7 @@ Käyttäjätunnuksen luonti on helppoa ja toimii kuin mihin tahansa palveluun re
 
 Jos löysit tänne ystäväsi kutsusta, on hän antanut sinulle osoitteensa muodossa `@ystäväsi:hänen.palveluntarjoajansa` ja voit nyt olla häneen yhteydessä. Löydät lisäksi esim. [Matrix Suomi](https://matrix.to/#/#matrix-suomi:kapsi.fi) -ryhmästä satoja julkisia suomenkielisiä keskustelukanavia eri aiheista.
 
-[^1]: Rekisteröityminen sähköpostivarmenteen avulla onnistuu vain sallituista sähköpostiosoitteista. Jos sinulla ei ole soveltuvaa suomalaisen tunnetun instituution ([lista](https://github.com/pikaviestin/documentation/blob/main/email_validation_policy.py)) sähköpostia etkä halua käyttää tekstiveistivarmennusta, voit pyytää rekisteröitymistä ylläpidolta sähköpostilla yllapito[at]pikaviestin[piste]fi tai julkisessa Matrix-huoneessa [#aula:pikaviestin.fi](https://matrix.to/#/#aula:pikaviestin.fi).  
+[^1]: Rekisteröityminen sähköpostivarmenteen avulla onnistuu vain sallituista sähköpostiosoitteista. Jos sinulla ei ole soveltuvaa suomalaisen tunnetun instituution ([lista](https://github.com/pikaviestin/documentation/blob/main/email_validation_policy.py)) sähköpostia etkä halua käyttää tekstiviestivarmennusta, voit pyytää rekisteröitymistä ylläpidolta sähköpostilla yllapito[at]pikaviestin[piste]fi tai julkisessa Matrix-huoneessa [#aula:pikaviestin.fi](https://matrix.to/#/#aula:pikaviestin.fi).  
 
 ## Keitä me olemme 
 
@@ -76,5 +76,5 @@ Käyttämällä pikaviestin.fi-palvelua voit tällä hetkellä käyttää samall
 - WhatsApp
 - Facebook Messenger
 
-Sillat muihin viestintäpalveluihin tarjoaa Kapsi Internet-käyttäjät ry. Ohjeet niiden käyttöön löytyvät [täältä](https://www.kapsi.fi/palvelut/matrix.html), _Ohjeita muihin pikaveistinpalveluihin yhdistämiseen_-otsikon alta
+Sillat muihin viestintäpalveluihin tarjoaa Kapsi Internet-käyttäjät ry. Ohjeet niiden käyttöön löytyvät [täältä](https://www.kapsi.fi/palvelut/matrix.html), _Ohjeita muihin pikaviestinpalveluihin yhdistämiseen_-otsikon alta
 
