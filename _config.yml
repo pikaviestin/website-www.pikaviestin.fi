@@ -115,18 +115,16 @@ destination: ./build
 navigation_header:
 - title: Etusivu
   url: /
-- title: Web chat
-  url: https://chat.pikaviestin.fi
-- title: Cinny
-  url: https://cinny.pikaviestin.fi
+- title: Matrix
+  url: /matrix/
+- title: Mastodon
+  url: /mastodon/
+- title: Mobilizon
+  url: /mobilizon/
 - title: Uutiset
   url: /blog/
 - title: Tietosuojaseloste
   url: /tietosuojaseloste.pdf
-- title: Categories
-  url: /categories/
-- title: Search
-  url: /search/
 
 navigation_footer:
 - title: Tekniset resurssit tarjoaa Kapsi Internet-käyttäjät ry
