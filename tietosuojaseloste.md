@@ -29,7 +29,7 @@ Henkilötietoja käsitellään Matrix-palvelun hoitamiseksi.
 ## 7. Tietojen säännönmukaiset luovutukset
 Luonteeltaan julkisia tietoja joita käyttäjä Matrix-verkkoa käyttäessään tuottaa ovat:
  - Matrix-tunnus (MXID), pakollinen, käyttäjän yksilöivä tunnus Matrix-verkossa, alkuosa käyttäjän itsensä asettama teksti, loppuosa `pikaviestin.fi`
- - "avatar" ("omakuva"), jos käyttäjä sellaisen itselleen asettaa, ei pakollien
+ - "avatar" ("omakuva"), jos käyttäjä sellaisen itselleen asettaa, ei pakollinen
  - "Real name" ("oma nimi"), jos käyttäjä sellaisen itselleen asettaa, ei pakollinen
  - Salaamattomissa Matrix-huoneissa kirjoitettu viestintä
  - Salattujen Matrix-huoneiden salausmenetelmä on "End to End" ("Päästä Päähän") salaus, salattujen Matrix-huoneiden osalta ylläpidolla ei ole pääsyä käyttäjän viestintään.
@@ -41,7 +41,7 @@ Tietoja ei luovuteta EU:n tai ETA-alueen ulkopuolelle.
 
 ## 9. Rekisterin suojauksen periaatteet
  - Kaikilla rekisteriä käsittelevillä henkilöillä on rekisterinpitäjän myöntämä henkilökohtainen käyttöoikeus.
- - Henkilökohtaisten käyttäjäntunnuksien ja salasanojen avulla pystytään tallentamaan kaikki sisäänkirjautumiset sekä tehdyt toimenpiteet.
+ - Henkilökohtaisten käyttäjätunnuksien ja salasanojen avulla pystytään tallentamaan kaikki sisäänkirjautumiset sekä tehdyt toimenpiteet.
  - Rekisterin hallintaan pääsee vain suojattua ja salattua yhteyttä käyttäen.
  - Rekisteriin ei talleteta henkilötietolain määrittelemiä salassapidettäviä tietoja.
  - Rekisterin käsittelijöillä on vaitiolovelvollisuus liittyen kaikkiin jäsentietoihin.
