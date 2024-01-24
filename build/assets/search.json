@@ -1,0 +1,89 @@
+
+
+[
+  
+  
+    
+    
+      {
+        "title": "Pikaviestin.fi-palvelua pystytetään",
+        "excerpt": "Projektin säätäjät ovat kokontuneet sekä paikallisesti, että virtuaalisesti yhteen laittamaan projektia viimein eteenpäin. Tästä se lähtee!\n\nIllan agendana on ollut saada tämä verkkosivusto edes jonkinlaisena skeletonina julkaistuksi ja palvelun perustekniikka ajoon edes sellaiselle tasolle, että pääsemme itse testaamaan palvelun ja varmistamaan kaikkien komponenttien toiminnan.\n",
+        "content": "Projektin säätäjät ovat kokontuneet sekä paikallisesti, että virtuaalisesti yhteen laittamaan projektia viimein eteenpäin. Tästä se lähtee!\n\nIllan agendana on ollut saada tämä verkkosivusto edes jonkinlaisena skeletonina julkaistuksi ja palvelun perustekniikka ajoon edes sellaiselle tasolle, että pääsemme itse testaamaan palvelun ja varmistamaan kaikkien komponenttien toiminnan.\n",
+        "url": "/uutiset/2021/09/25/pikaviestin.fi-pystytys/"
+      },
+    
+      {
+        "title": "Pikaviestin.fi-palvelu on käytettävissä",
+        "excerpt": "Olemme vihdoin saaneet Pikaviestimen käyttökuntoon, ja nyt Suomalaiset käyttäjät voivatkin rekistöröityä sinne täällä.\n",
+        "content": "Olemme vihdoin saaneet Pikaviestimen käyttökuntoon, ja nyt Suomalaiset käyttäjät voivatkin rekistöröityä sinne täällä.\n",
+        "url": "/uutiset/2021/11/30/pikaviestin.fi-live/"
+      },
+    
+      {
+        "title": "Kuinka saan pikaviestin.fi-palvelun käyttöön",
+        "excerpt": "Palvelu on tarkoitettu Suomalaisille, Suomea puhuville tai muutoin vahvat siteet Suomeen omaaville käyttäjille. Häirinnän minimoimiseksi annamme tunnuksen käyttöön pyyntöä vastaan. Toimi näin…\n\n",
+        "content": "Palvelu on tarkoitettu Suomalaisille, Suomea puhuville tai muutoin vahvat siteet Suomeen omaaville käyttäjille. Häirinnän minimoimiseksi annamme tunnuksen käyttöön pyyntöä vastaan. Toimi näin…\n\n\n\nMikäli et pysty itse tunnusta luomaan osoitteessa: https://login.pikaviestin.fi/if/flow/matrix-enrollment/, esimerkiksi whitelistan vuoksi niin seuraa seuraavia ohjeita.\n\n\n  Lähetä sähköposti tunnuksen haluamisesta osoitteeseen yllapito(at)pikaviestin(piste)fi\n  Odota vastausta.\n  Saat palauupostina linkin, jolla pääset sen luomaan itse.\n  Ala tsättäämään!\n\n",
+        "url": "/ohjeet/2021/12/19/ohje-tunnuksen-luonti/"
+      },
+    
+      {
+        "title": "Pikaviestin.fi-palveluun on nyt mahdollista rekistöröityä tekstiviestivahvistuksella",
+        "excerpt": "Projektin säätäjät ovat saaneet vihdoin SMS:ää käyttäen rekistöröitymisen mahdolliseksi.\nTätä käyttäen ei ole enää tarvetta sähköpostiosoitteen valkoisella listalla olemiselle.\n\nRekistöröityminen käyttäen tekstiviesti vahvistusta löytyy täältä.\n",
+        "content": "Projektin säätäjät ovat saaneet vihdoin SMS:ää käyttäen rekistöröitymisen mahdolliseksi.\nTätä käyttäen ei ole enää tarvetta sähköpostiosoitteen valkoisella listalla olemiselle.\n\nRekistöröityminen käyttäen tekstiviesti vahvistusta löytyy täältä.\n",
+        "url": "/uutiset/2023/02/13/tunnuksen-luonti-tekstiviestilla/"
+      },
+    
+  
+  
+  
+  {
+    "title": "Categories",
+    "excerpt": "Category index\n",
+    "content": "\n",
+    "url": "/categories/"
+  },
+  
+  {
+    "title": "Elements",
+    "excerpt": "A demo of Markdown and HTML includes\n",
+    "content": "Heading 1\n\nHeading 2\n\nHeading 3\n\nHeading 4\n\nHeading 5\n\nHeading 6\n\nA small element\n\nA link\n\nLorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.\n\nDuis aute irure dolor in A link reprehenderit in voluptate velit esse cillum bold text dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt italicised text in culpa qui officia deserunt mollit anim id some code est laborum.\n\n\n  An item\n  An item\n  An item\n  An item\n  An item\n\n\n\n  Item one\n  Item two\n  Item three\n  Item four\n  Item five\n\n\n\n  A simple blockquote\n\n\nSome HTML…\n\n&lt;blockquote cite=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;\n  &lt;p&gt;You planning a vacation, Mr. Sullivan?&lt;/p&gt;\n  &lt;footer&gt;\n    &lt;a href=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;Sunways Security Guard&lt;/a&gt;\n  &lt;/footer&gt;\n&lt;/blockquote&gt;\n\n\n…CSS…\n\nblockquote {\n  text-align: center;\n  font-weight: bold;\n}\nblockquote footer {\n  font-size: .8rem;\n}\n\n\n…and JavaScript\n\nconst blockquote = document.querySelector(\"blockquote\")\nconst bolden = (keyString, string) =&gt;\n  string.replace(new RegExp(keyString, 'g'), '&lt;strong&gt;'+keyString+'&lt;/strong&gt;')\n\nblockquote.innerHTML = bolden(\"Mr. Sullivan\", blockquote.innerHTML)\n\n\nSingle line of code\n\nHTML Includes\n\nContact form\n\n\n  \n    Contact\n    Name: *\n    \n\n    Email Address: *\n    \n\n    Message: *\n    \n\n    \n    \n    * indicates a required field\n\n    \n      \n      \n      \n    \n  \n\n\n\n\nPlease enable JavaScript to use the form.\n\n{% include site-form.html %}\n\n\nDemo map embed\n\n\n\n{% include map.html id=\"XXXXXX\" title=\"Coffee shop map\" %}\n\n\nButton include\n\nA button\n\nA button with icon  twitter\n\n\n{% include button.html text=\"A button\" link=\"https://david.darn.es\" %}\n{% include button.html text=\"A button with icon\" link=\"https://twitter.com/daviddarnes\" icon=\"twitter\" %}\n\n\nIcon include\n\ntwitter\ntwitter\n\n\n{% include icon.html id=\"twitter\" title=\"twitter\" %}\n[{% include icon.html id=\"linkedin\" title=\"twitter\" %}](https://www.linkedin.com/in/daviddarnes)\n\n\nVideo include\n\n\n  \n\n\n{% include video.html id=\"zrkcGL5H3MU\" title=\"Siteleaf tutorial video\" %}\n\n\nImage includes\n\n\n  \n  Image with caption\n\n\n\n  \n  Right aligned image\n\n\n\n  \n  Left aligned image\n\n\n\n  \n  \n\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Image with caption\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Right aligned image\" position=\"right\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Left aligned image\" position=\"left\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/1600/800?image=894\" alt=\"Image with just alt text\" %}\n\n",
+    "url": "/elements/"
+  },
+  
+  {
+    "title": "Viestintäpalveluita suomalaisille",
+    "excerpt": "Tarjoamme suomalaisille käyttäjille verkkopalveluita ilmaiseksi\n",
+    "content": "Tarjoamme suomalaisille avoimia viestintäpalveluita vapaaehtoisvoimin. Kaikki palvelut toimivat samoilla tunnuksilla.\n\n\n  Matrix - Pikaviestin kuten Discord, Slack, WhatsApp, jne\n  Mastodon - Mikroblogi kuten Twitter tai BlueSky\n  Mobilizon - Tapahtumat kuten MeetUp tai FB Events\n\n\nKaikki palvelut ovat federoituja, eli voit viestiä ympäri maailman muilla palvelimilla olevien kanssa. Matrixista pystyt viestimään myös muissa viestimissä olevien kanssa ns. siltojen avulla.\n\nMiten pääset käyttämään pikaviestimen palveluita?\n\n\n  Luo itsellesi käyttäjätunnus täyttämällä alla olevasta linkista rekisteröintikaavake. Rekisteröintitiedot ja käyttäjävarmennus kerätään väärinkäytön ehkäisemiseksi. Käsittelemme tietojasi tietosuojaselosteemme mukaisesti.\n    \n      Varmennus tekstiviestillä (suositeltu)\n      Varmennus sähköpostilla - Toimii vain jos sinulla on suomalainen sähköpostiosoite (lista).\n    \n  \n  Muista vahvistaa käyttäjätunnuksesi saamasi tekstiviestin (tai sähköpostin) avulla.\n\n\nJos rekisteröinnin kanssa on ongelmia tai tarvitset kutsun tai useamman, ota yhteyttä sähköpostilla yllapito [ät] pikaviestin.fi tai Matrixissa #aula:pikaviestin.fi -kanavalla.\n\nKeitä me olemme\n\npikaviestin.fi-palvelua ylläpitää joukko vapaaehtoisia harrastajia, jotka haluavat yhdessä edesauttaa vapaan lähdekoodin, federoitujen viestipalveluiden yleistymistä ja käyttöä. Federoitu teknologia tarjoaa avoimen ja mistään yksittäisestä toimijasta riippumattoman toteutuksen maailmanlaajuiseen viestintään ja kommunikaatioon.\n\nAjassa, jossa suositut ja laajalti käytetyt palvelut ovat lähes poikkeuksetta täysin yksitysten yritysten ja toimijoiden hallinnoimia, mahdollistaa federoidut palvelut demokratisemman ja mistään yksittäisestä toimijasta riippumattoman viestinnän tarjoten samalla kaikki moderneilta viestiratkaisuilta vaaditut ominaisuudet.\n\nTietosuoja\n\nTämä palvelu on tarkoitettu Suomessa asuville käyttäjille. Palvelu tallentaa käyttäjän syöttämät tiedot sekä viestihistorian palvelun toteutuksen vaatimalla tavalla. Ylläpidolla ei ole pääsyä\nMatrix-viesteihin niiltä osin, kun ne ovat päästä päähän salattuja (E2EE). Viestinnän salaus on käyttäjän itsensä hallittavissa. Mastodonissa ja Mobilizonissa ylläpidolla on pääsy kaikkiin käyttäjän sisältöihin.\n\nKaikki viestiliikenne on verkkotasolla HTTPS-menetelmällä salattua, joten tietoja ei liiku verkossa salaamattomana.\n\nPalvelun tietosuojaseloste löytyy linkin takaa.\n",
+    "url": "/"
+  },
+  
+  {
+    "title": "Sauna.social Mastodon",
+    "excerpt": "Sauna.social Mastodon\n",
+    "content": "Mastodon on avoin ja ilmainen mikroblogipalvelu, joka käytöltään muistuttaa Twitteriä tai BlueSkytä. Mastodonissa ei ole\nkeskustelua ohjaavaa algoritmiä, joten se toimii neutraalina alustana keskustelulle.\n\nMastodon on federoitu, eli voit seurata ja viestiä vapaasti muilla palvelimilla (instansseilla) olevien käyttäjien kanssa.\n\nPikaviestimen tarjoama Mastodon-instanssi on nimeltään sauna.social.\n\nHyvä kahden minuutin esittelyvideo Mastodonista englanniksi\n\nLisätietoja Mastodonista englanniksi\n\nMastodonin käyttöönotto\n\n\n  Luo pikaviestin-tunnus\n  Avaa sauna.social\n  Valitse oikealta “Log In”\n  Valitse “or log in with Pikaviestin.fi”\n  Kirjaudu pikaviestimen tunnuksella\n\n\nTarvitsetko apua?\n\nPikaviestimen ylläpito ja muita käyttäjiä päivystää Matrixissa kanavalla #aula:pikaviestin.fi\n\nMastodonista ja muista Fediversumin palveluista keskustellaan kanavalla #fediversumi:kapsi.fi\n",
+    "url": "/mastodon/"
+  },
+  
+  {
+    "title": "Matrix-pikaviestin",
+    "excerpt": "Matrix-pikaviestin\n",
+    "content": "Miksi käyttäisit Matrixia?\n\nPikaviestimet ovat kaikkien käyttamä yhteydenpitoväline niin puhelimella kuin tietokoneellakin. Viestipalveluita on kuitenkin paljon (WhatsApp, Facebook, Signal, Discord, Telegram, …) ja joudut usein käyttämään eri pikaviestimiä eri henkilöiden tavoittamiseen. Lisäksi nämä palvelut ovat kaupallisia, keskitettyjä ja täysin kyseisen yrityksen hallinnassa.\n\nMatrix-viestiverkko perustuu standardoituun ja toimittajariippumattomaan kommunikointiin sähköpostin tapaan: Sinä valitset palveluntarjoajan ja ohjelmiston jota haluat käyttää.\n\npikaviestin.fi toimii palveluntarjoajana ja tarjoaa sinulle kayttajatunnuksen josta sinut tavoittaa, sekä yhteydet Matrix-pikaviestiverkon käyttöön. Lisäksi pikaviestin.fi tarjoaa sinulle mahdollisuuden olla samalla ohjelmistolla yhteydessä muissa pikaviestipalveluissasi oleviin kontakteihisi ja ryhmiisi.\n\nMikä on Matrix?\n\nMatrix-viestiverkossa voit turvallisesti viestitellä perheenjäsenten, tuttavien ja kavereiden kanssa salatun yhteyden välityksellä. Voit lähettää kuvia, tiedostoja, ääniviestejä sekä soittaa ääni ja videopuheluja. Kahdenvälisten keskustelujen lisäksi voit käydä usean osallistujan yksityisiä ryhmäkeskusteluja sekä liittyä erilaisiin yleisiin keskusteluryhmiin ja yhteisöihin. Palvelu tarjoaakin kaiken, mitä nykyaikaiselta \npikaviestipalvelulta odotatkin.\n\nSinun ei tarvitse antaa nimeäsi, puhelinnumeroasi tai muita yhteystietojasi keskustelun toiselle osapuolelle, joten viestintä on tarvittaessa anonyymiä ja siten turvallista esimerkiksi uusien tuttavuuksien kanssa. Matrix-pikaviestinverkon palveluita voit käyttää puhelimella, tietokoneella tai tabletilla.\n\nKäyttöönotto\n\n\n  Luo tunnus pikaviestimeen\n  Tietokoneen selaimessa: siirry selain-Elementiin ja kirjaudu sisään\n  Puhelimella: Asenna Element-appi puhelimeesi. Kirjautuessa kysyttävä kotipalvelimesi (engl. homeserver) on pikaviestin.fi.\n  Aloita keskustelut Matrix-viestiverkossa. Käyttäjätunnuksesi eli osoitteesi josta sinut tavoittaa (vrt. sähköpostiosoite) on muotoa @käyttäjätunnuksesi:pikaviestin.fi.\n\n\nJos löysit tänne ystäväsi kutsusta, on hän antanut sinulle osoitteensa muodossa @ystäväsi:hänen.palveluntarjoajansa ja voit nyt olla häneen yhteydessä. Löydät lisäksi esim. Matrix Suomi -ryhmästä satoja julkisia suomenkielisiä keskustelukanavia eri aiheista.\n\nAsiakasohjelmat\n\nMatrix-viestiverkkoa voit käyttää usealla eri asiakasohjelmalla oman makusi mukaan. Tarjoamme selaimella käytettäväksi tällä hetkellä selainpohjaista Element -ohjelmaa, joka on säädetty toimimaan pikaviestin.fi-palvelun kanssa suoraan parhaalla mahdollisella tavalla.\n\nLisäksi on tarjolla selainpohjainen Cinny.\n\nMobiilisovellukset\n\nElement: Android iOS\n\nFluffyChat: Android iOS\n\nTyöpöytäsovellukset\n\nElement: Windows, Linux ja MacOS\n\nMihin muihin pikaviestipalveluihin pääsen\n\nKäyttämällä pikaviestin.fi-palvelua voit tällä hetkellä käyttää samalla myös seuraavia muita viestintäpalveluita:\n\n\n  Telegram\n  Discord\n  Signal\n  IRC\n  Slack\n  WhatsApp\n  Facebook Messenger\n\n\nSillat muihin viestintäpalveluihin tarjoaa Kapsi Internet-käyttäjät ry. Ohjeet niiden käyttöön löytyvät täältä, Ohjeita muihin pikaviestinpalveluihin yhdistämiseen-otsikon alta\n",
+    "url": "/matrix/"
+  },
+  
+  {
+    "title": "Järkkää.fi - Mobilizon",
+    "excerpt": "Järkkää.fi - Mobilizon\n",
+    "content": "Mobilizonilla voit ilmoittaa tapahtumasta. Tapahtumille voi asettaa paikan, ajan ja muita tietoja kuten muissakin\ntapahtumienjärjestämispalveluissa. Mobilizon kuitenkin toimii yhteen muiden Mobilizon-palvelimien kanssa niin, että\nniissä näkyy ristiin toistensa tapahtumat. Mobilizon muodostaa yhden maailmanlaajuisen tapahtumistailmoittamisverkon.\n\nMobilizon-tunnuksia pystyy seuraamaan ja kommentoimaan muista fediversumipalveluista kuten Mastodonista. Tapahtumista\nsaa myös rss-syötteet ja ne saa ical-kalenteriohjelmiin. Mobilizon on helppo integroida muihin palveluihin toisin\nkuin keskitetyt vaihtoehdot.\n\nKutsuvierastilaisuuksissa tapahtuman voi merkitä myös yksityiseksi, jolloin se ei näy hauissa. Tapahtumalinkkiä voi\njaella kutsutuille.\n\nPikaviestimen tarjoama Mobilizon-instanssi on nimeltään Järkkää.fi\n\nLisätietoja Mobilizonista Englanniksi\n\nMobilizonin käyttöönotto\n\n\n  Luo pikaviestin-tunnus\n  Avaa järkkää.fi\n  Valitse ylhäältä oikealta “Log In”\n  Valitse “Sign in with Pikaviestin.fi-tunnus”\n  Kirjaudu pikaviestimen tunnuksella\n\n\nTarvitsetko apua?\n\nPikaviestimen ylläpito ja muita käyttäjiä päivystää Matrixissa kanavalla #aula:pikaviestin.fi\n\nMobilizonista ja muista Fediversumin palveluista keskustellaan kanavalla #fediversumi:kapsi.fi\n\nMobilizonin oma tukikanava (Englanniksi ja Ranskaksi) on #mobilizon:matrix.org\n",
+    "url": "/mobilizon/"
+  },
+  
+  {
+    "title": "Search",
+    "excerpt": "Search for a page or post you’re looking for\n",
+    "content": "{% include site-search.html %}\n",
+    "url": "/search/"
+  }
+  
+]
+

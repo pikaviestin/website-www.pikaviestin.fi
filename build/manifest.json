@@ -1,0 +1,9 @@
+{
+  "lang": "fi-FI",
+  "name": "pikaviestin.fi",
+  "short_name": "pikaviestin.fi",
+  "theme_color": "#24292e",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone"
+}
