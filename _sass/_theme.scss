@@ -104,14 +104,30 @@ body {
 .footer {
   background: $headingColour;
   color: $captionColour;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   a {
     color: $captionColour;
+    &:has(img) {
+      display: block;
+    }
+    &:focus,
     &:hover {
       color: $backgroundColour;
+      img {
+        opacity: 1;
+      }
+    }
+    img {
+      height: 2.5rem;
+      vertical-align: middle;
+      opacity: .667;
     }
   }
   .container {
     @include flex-wrap(wrap);
+    align-items: center;
   }
   .small {
     padding-top: 0;
@@ -139,6 +155,7 @@ body {
   @include flex(1, 0, auto);
   @include justify-content(flex-start);
   margin-bottom: 1.6rem;
+  padding-bottom: 5rem;
   @include breakpoint(break-1) {
     @include justify-content(center);
     @include flex-direction(row);

@@ -129,6 +129,7 @@ navigation_header:
 navigation_footer:
 - title: Tekniset resurssit tarjoaa Kapsi Internet-käyttäjät ry
   url: https://www.kapsi.fi
+  image: "/assets/logos/kapsi.svg"
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   GitHub: https://github.com/pikaviestin
