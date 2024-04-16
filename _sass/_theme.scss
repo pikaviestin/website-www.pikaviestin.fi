@@ -108,8 +108,10 @@ body {
   width: 100%;
   bottom: 0;
   a {
+    @include fontsize(theta, all);
     color: $captionColour;
     &:has(img) {
+      translate: 0 -.17em;
       display: block;
     }
     &:focus,
@@ -121,8 +123,9 @@ body {
     }
     img {
       height: 2.5rem;
-      vertical-align: middle;
+      vertical-align: bottom;
       opacity: .667;
+      transition: opacity .1s;
     }
   }
   .container {
