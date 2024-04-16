@@ -212,7 +212,6 @@ body {
 .list {
   list-style: none;
   &--nav {
-    overflow: hidden;
     margin-bottom: var(--listHeight, 0);
   }
   .item--post,
