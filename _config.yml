@@ -127,8 +127,10 @@ navigation_header:
   url: /tietosuojaseloste.pdf
 
 navigation_footer:
-- title: Tekniset resurssit tarjoaa Kapsi Internet-käyttäjät ry
+- title: Kapsi Internet-käyttäjät ry
   url: https://www.kapsi.fi
+  image: "/assets/logos/kapsi.svg"
+  intro: Tekniset resurssit tarjoaa
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   GitHub: https://github.com/pikaviestin
@@ -148,3 +150,5 @@ fonts:
     - https://fonts.gstatic.com
   font_urls:
     - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
+    - https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap
+    - https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800

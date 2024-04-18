@@ -10,7 +10,13 @@
       {% endif %}
 
       <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
-        <a href="{{ url }}">{{ item.title }}</a>
+        <a href="{{ url }}">
+          {% if item.image %}
+            {{ item.intro }}<img src="{{ item.image }}" title="{{ item.title }}" alt="Kapsi ry">
+          {% else %}
+            {{ item.intro }} {{ item.title }}
+          {% endif %}
+        </a>
       </li>
     {% endfor %}
   </ul>
