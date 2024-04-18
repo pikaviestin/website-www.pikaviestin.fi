@@ -22,7 +22,7 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Make sure node is installed.
-        run: sudo apt-get update && apt-get -y install nodejs
+        run: sudo apt-get update && sudo apt-get -y install nodejs
       - name: Install md-to-pdf (NodeJS)
         run: npm i -g md-to-pdf
       - name: Generate PDF of Tietosuojaseloste
