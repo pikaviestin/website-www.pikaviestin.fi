@@ -14,5 +14,6 @@ Tilanne 21.4 klo 00:28: Tietokannan pakkaus on ajossa käyttäen auto-compressor
 Tilanne 21.4 klo 05:28: Pakkaus ajossa edelleen.  
 Tilanne 21.4 klo 12:00: Jouduttiin lopettamaan pakkaaminen kun se ei ollut vieläkään valmis.  
 Tilanne 22.4 klo 01:58: Nähtävästi se ei tykkää jostain syystä tuosta uudesta tietokanta-palvelimesta...  Se hetken toimi virheellisesti kun ansible ajossa meni väärä tietokanta-palvelin kohteeksi.  
+Tilanne 22.4 klo 08:38: Nähtävillä virkoamisen merkkejä, prosessoroi federaatio liikennettä ihan järkevään tahtiin. Vielä esiintyy hitautta, mutta se pitäisi päivän aikana kadota. 
 
 
