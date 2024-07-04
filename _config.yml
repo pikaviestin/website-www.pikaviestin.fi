@@ -145,10 +145,10 @@ sharing_links: # Appear at the bottom of single blog posts, add as desired. The 
 #
 # TIP: Try to keep the number of urls as low to reduce the performance cost
 #      If multiple fonts can be requested in a single url opt for this
-fonts:
-  preconnect_urls:
-    - https://fonts.gstatic.com
-  font_urls:
-    - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
-    - https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap
-    - https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800
+#fonts:
+#  preconnect_urls:
+#    - https://fonts.gstatic.com
+#  font_urls:
+#    - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
+#    - https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap
+#    - https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800
