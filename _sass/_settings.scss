@@ -19,20 +19,21 @@ $bodytype: (
   regular: 400,
   bold: 700,
   italic: italic,
-  cap-height: 0.75
+  cap-height: 0.75,
 ) !default;
 
 $headingtype: (
   font-family: 'ui-serif, "Liberation Serif", Tinos, "Times New Roman", serif',
   regular: 400,
   bold: 700,
-  cap-height: 0.75
+  cap-height: 0.75,
 ) !default;
 
 $monospacetype: (
-  font-family: 'ui-monospace, "Liberation Mono", Cousine, "Courier New", monospace',
+  font-family:
+    'ui-monospace, "Liberation Mono", Cousine, "Courier New", monospace',
   regular: 400,
-  cap-height: 0.68
+  cap-height: 0.68,
 ) !default;
 
 // TIP: Load custom fonts in _config.yaml

@@ -3,10 +3,12 @@ title: Sauna.social Mastodon
 excerpt: "Sauna.social Mastodon"
 ---
 
-Mastodon on avoin ja ilmainen mikroblogipalvelu, joka käytöltään muistuttaa Twitteriä tai BlueSkytä. Mastodonissa ei ole
-keskustelua ohjaavaa algoritmiä, joten se toimii neutraalina alustana keskustelulle.
+Mastodon on avoin ja ilmainen mikroblogipalvelu, joka käytöltään muistuttaa
+Twitteriä tai BlueSkytä. Mastodonissa ei ole keskustelua ohjaavaa algoritmiä,
+joten se toimii neutraalina alustana keskustelulle.
 
-Mastodon on federoitu, eli voit seurata ja viestiä vapaasti muilla palvelimilla (instansseilla) olevien käyttäjien kanssa.
+Mastodon on federoitu, eli voit seurata ja viestiä vapaasti muilla palvelimilla
+(instansseilla) olevien käyttäjien kanssa.
 
 Pikaviestimen tarjoama Mastodon-instanssi on nimeltään sauna.social.
 
@@ -24,6 +26,8 @@ Pikaviestimen tarjoama Mastodon-instanssi on nimeltään sauna.social.
 
 ## Tarvitsetko apua?
 
-Pikaviestimen ylläpito ja muita käyttäjiä päivystää [Matrixissa](/matrix) kanavalla `#aula:pikaviestin.fi`
+Pikaviestimen ylläpito ja muita käyttäjiä päivystää [Matrixissa](/matrix)
+kanavalla `#aula:pikaviestin.fi`
 
-Mastodonista ja muista Fediversumin palveluista keskustellaan kanavalla `#fediversumi:kapsi.fi`
+Mastodonista ja muista Fediversumin palveluista keskustellaan kanavalla
+`#fediversumi:kapsi.fi`

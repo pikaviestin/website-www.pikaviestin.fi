@@ -8,7 +8,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - alembic-jekyll-theme.gemspec
-  - '.jekyll-cache'
+  - ".jekyll-cache"
 
 # 2. Installed Gems
 plugins:
@@ -44,7 +44,7 @@ author: "Pikaviestin.fi ylläpitäjät" # jekyll-seo-tag > default author
 # 4. Jekyll settings
 sass:
   style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+permalink: pretty # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: Europe/Helsinki # Timezone for blog posts and alike
 
@@ -60,19 +60,16 @@ collections:
 
 # 6. Jekyll collections settings
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       image: "/assets/space-blur.png" # Default image for sharing
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: post # Set the default layout for posts
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
@@ -83,7 +80,8 @@ encoding: utf-8 # Make sure the encoding is right
 lang: fi-FI # Set the site language
 title: "pikaviestin.fi" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/vp_ikoni_b.png" # Site logo, also used in jekyll-seo-tag
-description: "Pikaviestin.fi on Suomalaisille käyttäjille suunnattu ilmainen Matrix-verkon pikaviestipalvelu." # Site description and default description, also used in jekyll-seo-tag
+description: "Pikaviestin.fi on Suomalaisille käyttäjille suunnattu ilmainen
+  Matrix-verkon pikaviestipalvelu." # Site description and default description, also used in jekyll-seo-tag
 url: "https://www.pikaviestin.fi" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/daviddarnes/alembic"
@@ -113,24 +111,24 @@ destination: ./build
 
 # 9. Site navigation
 navigation_header:
-- title: Etusivu
-  url: /
-- title: Matrix
-  url: /matrix/
-- title: Mastodon
-  url: /mastodon/
-- title: Mobilizon
-  url: /mobilizon/
-- title: Uutiset
-  url: /blog/
-- title: Tietosuojaseloste
-  url: /tietosuojaseloste.pdf
+  - title: Etusivu
+    url: /
+  - title: Matrix
+    url: /matrix/
+  - title: Mastodon
+    url: /mastodon/
+  - title: Mobilizon
+    url: /mobilizon/
+  - title: Uutiset
+    url: /blog/
+  - title: Tietosuojaseloste
+    url: /tietosuojaseloste.pdf
 
 navigation_footer:
-- title: Kapsi Internet-käyttäjät ry
-  url: https://www.kapsi.fi
-  image: "/assets/logos/kapsi.svg"
-  intro: Tekniset resurssit tarjoaa
+  - title: Kapsi Internet-käyttäjät ry
+    url: https://www.kapsi.fi
+    image: "/assets/logos/kapsi.svg"
+    intro: Tekniset resurssit tarjoaa
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   GitHub: https://github.com/pikaviestin

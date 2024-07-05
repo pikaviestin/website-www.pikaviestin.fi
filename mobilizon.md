@@ -3,16 +3,19 @@ title: Järkkää.fi - Mobilizon
 excerpt: "Järkkää.fi - Mobilizon"
 ---
 
-Mobilizonilla voit ilmoittaa tapahtumasta. Tapahtumille voi asettaa paikan, ajan ja muita tietoja kuten muissakin
-tapahtumienjärjestämispalveluissa. Mobilizon kuitenkin toimii yhteen muiden Mobilizon-palvelimien kanssa niin, että
-niissä näkyy ristiin toistensa tapahtumat. Mobilizon muodostaa yhden maailmanlaajuisen tapahtumistailmoittamisverkon.
+Mobilizonilla voit ilmoittaa tapahtumasta. Tapahtumille voi asettaa paikan, ajan
+ja muita tietoja kuten muissakin tapahtumienjärjestämispalveluissa. Mobilizon
+kuitenkin toimii yhteen muiden Mobilizon-palvelimien kanssa niin, että niissä
+näkyy ristiin toistensa tapahtumat. Mobilizon muodostaa yhden maailmanlaajuisen
+tapahtumistailmoittamisverkon.
 
-Mobilizon-tunnuksia pystyy seuraamaan ja kommentoimaan muista fediversumipalveluista kuten Mastodonista. Tapahtumista
-saa myös rss-syötteet ja ne saa ical-kalenteriohjelmiin. Mobilizon on helppo integroida muihin palveluihin toisin
-kuin keskitetyt vaihtoehdot.
+Mobilizon-tunnuksia pystyy seuraamaan ja kommentoimaan muista
+fediversumipalveluista kuten Mastodonista. Tapahtumista saa myös rss-syötteet ja
+ne saa ical-kalenteriohjelmiin. Mobilizon on helppo integroida muihin
+palveluihin toisin kuin keskitetyt vaihtoehdot.
 
-Kutsuvierastilaisuuksissa tapahtuman voi merkitä myös yksityiseksi, jolloin se ei näy hauissa. Tapahtumalinkkiä voi
-jaella kutsutuille.
+Kutsuvierastilaisuuksissa tapahtuman voi merkitä myös yksityiseksi, jolloin se
+ei näy hauissa. Tapahtumalinkkiä voi jaella kutsutuille.
 
 Pikaviestimen tarjoama Mobilizon-instanssi on nimeltään Järkkää.fi
 
@@ -28,8 +31,10 @@ Pikaviestimen tarjoama Mobilizon-instanssi on nimeltään Järkkää.fi
 
 ## Tarvitsetko apua?
 
-Pikaviestimen ylläpito ja muita käyttäjiä päivystää [Matrixissa](/matrix) kanavalla `#aula:pikaviestin.fi`
+Pikaviestimen ylläpito ja muita käyttäjiä päivystää [Matrixissa](/matrix)
+kanavalla `#aula:pikaviestin.fi`
 
-Mobilizonista ja muista Fediversumin palveluista keskustellaan kanavalla `#fediversumi:kapsi.fi`
+Mobilizonista ja muista Fediversumin palveluista keskustellaan kanavalla
+`#fediversumi:kapsi.fi`
 
 Mobilizonin oma tukikanava (Englanniksi ja Ranskaksi) on `#mobilizon:matrix.org`
