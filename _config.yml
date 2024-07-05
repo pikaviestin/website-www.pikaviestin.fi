@@ -10,6 +10,10 @@ exclude:
   - alembic-jekyll-theme.gemspec
   - '.jekyll-cache'
 
+include:
+  - CNAME
+  - tietosuojaseloste.pdf
+
 # 2. Installed Gems
 plugins:
   - jekyll-sitemap
