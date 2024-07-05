@@ -1,0 +1,4 @@
+_layouts
+_includes
+assets/scripts/sw.js
+assets/*.json
