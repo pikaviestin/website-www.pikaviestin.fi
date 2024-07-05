@@ -7,3 +7,5 @@ Gemfile.lock
 **/Gemfile.lock
 /vendor/
 /build/
+node_modules/
+pnpm-lock.yaml

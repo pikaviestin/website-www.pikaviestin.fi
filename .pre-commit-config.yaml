@@ -1,0 +1,11 @@
+# See https://pre-commit.com for more information
+ci:
+  skip: [prettier]
+
+repos:
+  - repo: local
+    hooks:
+      - id: prettier
+        name: prettier
+        entry: corepack pnpm exec prettier --cache --ignore-unknown --write
+        language: system
