@@ -21,13 +21,13 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Generate PDF of Tietosuojaseloste
-        run: corepack npx md-to-pdf tietosuojaseloste.md
+        run: corepack npm exec md-to-pdf -- tietosuojaseloste.md
         uses:
-          - actions/checkout@master
-          - actions/setup-node@v4
+          actions/checkout@master
+          actions/setup-node@v4
         with:
-          - node-version: lts
-          - cache: 'npm'
+          node-version-file: '.nvmrc'
+          cache: 'npm'
       - name: Build site
         run: bundle exec jekyll build
         env:

@@ -1,5 +1,6 @@
 #!/bin/sh
 set -x
-corepack npx md-to-pdf tietosuojaseloste.md
+corepack npm i
+corepack npm exec md-to-pdf -- tietosuojaseloste.md
 bundle exec jekyll build
 set +x
