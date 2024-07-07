@@ -23,10 +23,12 @@ jobs:
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Make sure node is installed.
         run: sudo apt-get update && sudo apt-get -y install nodejs
-      - name: Install md-to-pdf (NodeJS)
-        run: npm i -g md-to-pdf
+      - name: Install node dependencies
+        run: corepack npm i
       - name: Generate PDF of Tietosuojaseloste
-        run: md-to-pdf tietosuojaseloste.md
+        run:
+          corepack npm exec --package=md-to-pdf -- md-to-pdf
+          tietosuojaseloste.md
       - name: Build site
         run: bundle exec jekyll build
         env:
