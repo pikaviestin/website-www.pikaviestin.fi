@@ -9,3 +9,4 @@ Gemfile.lock
 /build/
 tietosuojaseloste.pdf
 node_modules/
+chrome/
