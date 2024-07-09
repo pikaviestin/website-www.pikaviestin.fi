@@ -31,7 +31,7 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Publish site
-        uses: actions-js/push@v1.3
+        uses: actions-js/push@v1.5
         with:
          github_token: ${{ secrets.GITHUB_TOKEN }}
          directory: build
