@@ -16,24 +16,20 @@ jobs:
         with:
           fetch-depth: 1
       - name: Setup Ruby
-        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
-      - name: Make sure node is installed.
-        run: sudo apt-get update && sudo apt-get -y install nodejs
-      - name: Install md-to-pdf (NodeJS)
-        run: npm i -g md-to-pdf
-      - name: Generate PDF of Tietosuojaseloste
-        run: md-to-pdf tietosuojaseloste.md
+      - name: Setup Node
+        uses:
+          actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
       - name: Build site
-        run: bundle exec jekyll build
+        run: ./build.sh
         env:
           JEKYLL_ENV: production
-      - name: Copy CNAME and PDF
-        run:
-         sudo cp CNAME build/ && sudo cp tietosuojaseloste.pdf build/
       - name: Publish site
         uses: actions-js/push@v1.3
         with:

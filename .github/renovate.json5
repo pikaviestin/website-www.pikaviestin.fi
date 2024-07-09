@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "config:recommended"
+  ],
+  "mode": "full",
+  "packageRules": [
+    {
+      "automerge": false,
+      "matchPackagePatterns": [
+        "*"
+      ]
+    }
+  ],
+  "timezone": "Europe/Helsinki"
+}
