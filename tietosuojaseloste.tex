@@ -1,0 +1,90 @@
+% https://github.com/datakurre/vakioasiakirja
+% ~/texmf/tex/latex/local (`kpsewhich -var-value=TEXMFHOME`)
+\documentclass[a4paper]{vakioasiakirja}
+% Last language is the document main language!
+\usepackage[finnish]{babel}
+% So the end-result has copypaste
+\usepackage{cmap}
+
+\author{Pikaviestin.fi ylläpito}
+
+\address{
+tietosuoja@pikaviestin.fi
+}
+
+\type{Tietosuojaseloste}
+\date{\today}
+\title{Pikaviestin.fi -palvelun tietosuojaseloste}
+
+
+\begin{document}
+\maketitle
+
+\section{Rekisterin pitäjä}\align Pikaviestin.fi yhteisö
+
+\section{Yhteystiedot}\align
+Nimi: Pikaviestin.fi ylläpito
+Sähköposti: tietosuoja@pikaviestin.fi
+
+\section{Rekisterin nimi}\align
+Pikaviestin.fi Matrix-käyttäjärekisteri
+
+\section{Käsittelytarkoitus}\align
+Henkilötietoja käsitellään Matrix-palvelun hoitamiseksi.
+
+\section{Rekisterin tietosisältö}\align
+
+\begin{itemize}
+\item{Nimi}
+\item{Matrix-tunnus (MXID)}
+\item{Sähköpostiosoite}
+\item{Matrix-asiakasohjelman kulloinenkin käytössä oleva IP-osoite}
+\item{Tunnuksen tila}
+\item{Tunnukseen liittyvät päivämäärät}
+\end{itemize}
+
+
+
+\section{Säännönmukaiset tietolähteet}\align
+\begin{itemize}
+\item{Käyttäjältä itseltään}
+\item{Pikaviestin.fi Autentik; Single Sign On -käyttäjähallinta, jonne käyttäjän rekisteröinnissä itsensä ilmoittamat välittömät tiedot tallentuvat}
+\item{Pikaviestin.fi Matrix-palvelin}
+\end{itemize}
+
+\section{Tietojen luovutukset}\align
+Luonteeltaan julkisia tietoja joita käyttäjä Matrix-verkkoa käyttäessään tuottaa ovat:
+\begin{itemize}
+\item{Matrix-tunnus (MXID), pakollinen, käyttäjän yksilöivä tunnus Matrix-verkossa, alkuosa käyttäjän itsensä asettama teksti, loppuosa `pikaviestin.fi`}
+\item{"avatar" ("omakuva"), jos käyttäjä sellaisen itselleen asettaa, ei pakollinen}
+\item{"Real name" ("oma nimi"), jos käyttäjä sellaisen itselleen asettaa, ei pakollinen}
+\item{Salaamattomissa Matrix-huoneissa kirjoitettu viestintä}
+\item{Salattujen Matrix-huoneiden salausmenetelmä on "End to End" ("Päästä Päähän") salaus, salattujen Matrix-huoneiden osalta ylläpidolla ei ole pääsyä käyttäjän viestintään.}
+\end{itemize}
+
+Muutoin tietoja luovutetaan vain jäsenen omalla suostumuksella tai mikäli laki niin vaatii.
+
+\section{Tietojen luovutus EU:n ulkopuolelle}\align
+Tietoja ei luovuteta EU:n tai ETA-alueen ulkopuolelle.
+
+\section{Rekisterin suojauksen periaatteet}\align
+\begin{itemize}
+\item{Kaikilla rekisteriä käsittelevillä henkilöillä on rekisterinpitäjän myöntämä henkilökohtainen käyttöoikeus.}
+\item{Henkilökohtaisten käyttäjätunnuksien ja salasanojen avulla pystytään tallentamaan kaikki sisäänkirjautumiset sekä tehdyt toimenpiteet.}
+\item{Rekisterin hallintaan pääsee vain suojattua ja salattua yhteyttä käyttäen.}
+\item{Rekisteriin ei talleteta henkilötietolain määrittelemiä salassapidettäviä tietoja.}
+\item{Rekisterin käsittelijöillä on vaitiolovelvollisuus liittyen kaikkiin jäsentietoihin.}
+\end{itemize}
+
+\section{10. Tarkastusoikeus sekä oikeus vaatia tiedon korjaamista}\align
+Ensisijaisesti käyttäjä voi tarkastella ja muokata omia tietojaan omatoimisesti Matrix-sovelluksen kautta. Käyttäjällä on myös oikeus tarkastaa ja ja vaatia korjaamaan rekisteriin merkityt tietonsa kerran vuodessa veloituksetta kirjallisesti rekisterinpitäjältä. Kirjallinen pyyntö tulee esittää rekisterinpitäjälle ensisijaisesti siitä sähköpostiosoitteesta joka vastaa rekisterissä olevaa sähköpostia. Pyynnön voi esittää myös sähköisesti vahvasti allekirjoitetulla asiakirjalla.
+
+Käyttäjätietoja annetaan tarkastettavaksi vain henkilökohtaisesti.
+
+\section{11. Muut henkilötietojen käsittelyyn liittyvät oikeudet}\align
+Käyttäjätiedot hävitetään sen jälkeen, kun ne eivät enää ole toiminnan kannalta tarpeellisia.
+
+% Sivunumerointia ei tarvita yksisivuisessa asiakirjassa
+\nopagenum
+
+\end{document}
