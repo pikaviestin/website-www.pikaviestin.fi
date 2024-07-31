@@ -7,6 +7,9 @@ Gemfile.lock
 **/Gemfile.lock
 /vendor/
 /build/
-tietosuojaseloste.pdf
+tietosuojaseloste.aux
+tietosuojaseloste.dvi
+tietosuojaseloste.log
+tietosuojaseloste.out
 node_modules/
 chrome/
