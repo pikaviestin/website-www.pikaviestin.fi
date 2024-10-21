@@ -12,7 +12,9 @@ exclude:
 
 include:
   - CNAME
-  - tietosuojaseloste.pdf
+
+keep_files:
+  - ../tietosuojaseloste.pdf
 
 # 2. Installed Gems
 plugins:
