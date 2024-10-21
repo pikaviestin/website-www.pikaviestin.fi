@@ -1,0 +1,7 @@
+---
+layout: none
+permalink: .well-known/security.txt
+---
+Contact: mailto:yllapito@pikaviestin.fi
+Expires: 2030-12-29T22:00:00.000Z
+Preferred-Languages: fi,en
