@@ -12,7 +12,7 @@ exclude:
 
 include:
   - CNAME
-
+  - .well-known
 keep_files:
   - ../tietosuojaseloste.pdf
 
