@@ -20,12 +20,11 @@ echo "Installing TeX Live (includes xelatex)..."
 mkdir -p $HOME/texlive
 export PATH=$HOME/texlive/bin/x86_64-linux:$PATH
 
-TEXLIVE_VERSION="2023"
 curl -L -o install-tl.tar.gz "https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz"
 tar -xzf install-tl.tar.gz --strip-components=1 -C $HOME/texlive
 
 # Install minimal TeX Live with XeLaTeX support
-$HOME/texlive/install-tl --profile=/dev/null --no-interaction
+$HOME/texlive/install-tl  --no-interaction --profile=texlive.profile -- TEXDIR=$TEXLIVE_DIR
 export PATH=$HOME/texlive/bin/x86_64-linux:$PATH
 
 echo "Checking XeLaTeX installation..."
