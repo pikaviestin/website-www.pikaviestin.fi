@@ -1,6 +1,0 @@
-{
-  "packageManager": "npm@10.9.0",
-  "dependencies": {
-    "md-to-pdf": "5.2.4"
-  }
-}
