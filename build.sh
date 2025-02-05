@@ -1,9 +1,18 @@
 #!/bin/sh
+set -e # Exit immediately if a command exits with a non-zero status
+
 printf "Ensuring dependencies are installed...\n"
 bundle install
-npm install -g corepack@0.31.0 # Related bug: https://github.com/nodejs/corepack/issues/612
-corepack npx puppeteer browsers install chrome
+sudo apt-get install -y pandoc texlive-xetex
+
 printf "Building tietosuojaseloste...\n"
-corepack npx md-to-pdf -- tietosuojaseloste.md
+pandoc tietosuojaseloste.md -o tietosuojaseloste.pdf --pdf-engine=xelatex
+
+# Check if the PDF was created, exit with error if not
+if [ ! -f tietosuojaseloste.pdf ]; then
+  echo "ERROR: PDF generation failed!"
+  exit 1
+fi
+
 printf "Building website...\n"
 bundle exec jekyll build -V
