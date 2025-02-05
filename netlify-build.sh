@@ -17,15 +17,16 @@ echo "Checking Pandoc installation..."
 $HOME/pandoc/bin/pandoc --version || { echo "Pandoc installation failed"; exit 1; }
 
 echo "Installing TeX Live (includes xelatex)..."
-mkdir -p $HOME/texlive
-export PATH=$HOME/texlive/bin/x86_64-linux:$PATH
+export TEXLIVE_DIR="$HOME/texlive"
+mkdir -p $TEXLIVE_DIR
+export PATH=$TEXLIVE_DIR/bin/x86_64-linux:$PATH
 
 curl -L -o install-tl.tar.gz "https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz"
-tar -xzf install-tl.tar.gz --strip-components=1 -C $HOME/texlive
+tar -xzf install-tl.tar.gz --strip-components=1 -C $TEXLIVE_DIR
 
 # Install minimal TeX Live with XeLaTeX support
-$HOME/texlive/install-tl  --no-interaction --profile=texlive.profile -- TEXDIR=$TEXLIVE_DIR
-export PATH=$HOME/texlive/bin/x86_64-linux:$PATH
+$TEXLIVE_DIR/install-tl  --no-interaction --profile=texlive.profile -- TEXDIR=$TEXLIVE_DIR
+export PATH=$TEXLIVE_DIR/bin/x86_64-linux:$PATH
 
 echo "Checking XeLaTeX installation..."
 xelatex --version || { echo "XeLaTeX installation failed"; exit 1; }
