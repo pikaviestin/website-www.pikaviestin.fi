@@ -20,7 +20,7 @@ Pikaviestimen tarjoama Mobilizon-instanssi on nimeltään Järkkää.fi
 
 ## Mobilizonin käyttöönotto
 
-1. Luo pikaviestin-tunnus
+1. Luo [pikaviestin-tunnus](https://www.pikaviestin.fi/)
 2. Avaa [järkkää.fi](https://järkkää.fi/)
 3. Valitse ylhäältä oikealta "Log In"
 4. Valitse "Sign in with Pikaviestin.fi-tunnus"
@@ -28,8 +28,8 @@ Pikaviestimen tarjoama Mobilizon-instanssi on nimeltään Järkkää.fi
 
 ## Tarvitsetko apua?
 
-Pikaviestimen ylläpito ja muita käyttäjiä päivystää [Matrixissa](/matrix) kanavalla `#aula:pikaviestin.fi`
+Pikaviestimen ylläpito ja muita käyttäjiä päivystää [Matrixissa](/matrix) kanavalla [#aula:pikaviestin.fi](https://matrix.to/#/#aula:pikaviestin.fi)
 
-Mobilizonista ja muista Fediversumin palveluista keskustellaan kanavalla `#fediversumi:kapsi.fi`
+Mobilizonista ja muista Fediversumin palveluista keskustellaan kanavalla [#fediversumi:kapsi.fi](https://matrix.to/#/#fediversumi:kapsi.fi)
 
-Mobilizonin oma tukikanava (Englanniksi ja Ranskaksi) on `#mobilizon:matrix.org`
+Mobilizonin oma tukikanava (Englanniksi ja Ranskaksi) on [#mobilizon:matrix.org](https://matrix.to/#/#mobilizon:matrix.org)
