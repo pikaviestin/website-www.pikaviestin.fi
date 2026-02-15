@@ -33,6 +33,7 @@ Ajassa, jossa suositut ja laajalti käytetyt palvelut ovat lähes poikkeuksetta 
 Tämä palvelu on tarkoitettu Suomessa asuville käyttäjille. Palvelu tallentaa käyttäjän syöttämät tiedot sekä viestihistorian palvelun toteutuksen vaatimalla tavalla. Ylläpidolla ei ole pääsyä
 Matrix-viesteihin niiltä osin, kun ne ovat päästä päähän salattuja (E2EE). Viestinnän salaus on käyttäjän itsensä hallittavissa. Mastodonissa ja Mobilizonissa ylläpidolla on pääsy kaikkiin käyttäjän sisältöihin.
 
+
 Kaikki viestiliikenne on verkkotasolla HTTPS-menetelmällä salattua, joten tietoja ei liiku verkossa salaamattomana.
 
 Palvelun tietosuojaseloste löytyy [linkin](https://www.pikaviestin.fi/tietosuojaseloste.pdf) takaa.
