@@ -14,7 +14,7 @@ Kaikki palvelut ovat federoituja, eli voit viestiä ympäri maailman muilla palv
 
 ## Miten pääset käyttämään pikaviestimen palveluita?
 
-1. Lue, miten käsittelemme tietojasi: [Tietosuojaseloste (PDF, 51,5 kB)](https://www.pikaviestin.fi/tietosuojaseloste.pdf).
+1. Lue, miten käsittelemme tietojasi: [Tietosuojaseloste (PDF)](https://www.pikaviestin.fi/tietosuojaseloste.pdf).
 2. Voit luoda tunnuksen kahdella eri tavalla alla olevista linkeistä. Rekisteröintitiedot ja käyttäjävarmennus kerätään väärinkäytön ehkäisemiseksi. 
 - [Luo tunnus (varmennus tekstiviestillä)](https://login.pikaviestin.fi/if/flow/enrollment-with-sms-verification/) (suositeltu)
 - [Luo tunnus (varmennus sähköpostilla)](https://login.pikaviestin.fi/if/flow/matrix-enrollment/) - Toimii vain jos sinulla on suomalainen sähköpostiosoite: ([lista luotetuista sähköpostiosoitteista](https://github.com/pikaviestin/documentation/blob/main/email_validation_policy.py)).
