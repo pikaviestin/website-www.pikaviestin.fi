@@ -4,3 +4,8 @@ styles: true
 ---
 
 @import "alembic";
+
+
+.typeset ol li ul li {
+  counter-increment: none;
+}
