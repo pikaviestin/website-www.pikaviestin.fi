@@ -14,10 +14,11 @@ Kaikki palvelut ovat federoituja, eli voit viestiä ympäri maailman muilla palv
 
 ## Miten pääset käyttämään pikaviestimen palveluita?
 
-1. Luo itsellesi käyttäjätunnus täyttämällä alla olevasta linkista rekisteröintikaavake. Rekisteröintitiedot ja käyttäjävarmennus kerätään väärinkäytön ehkäisemiseksi. Käsittelemme tietojasi [tietosuojaselosteemme](https://www.pikaviestin.fi/tietosuojaseloste.pdf) mukaisesti.
-- [Varmennus tekstiviestillä](https://login.pikaviestin.fi/if/flow/enrollment-with-sms-verification/) (suositeltu)
-- [Varmennus sähköpostilla](https://login.pikaviestin.fi/if/flow/matrix-enrollment/) - Toimii vain jos sinulla on suomalainen sähköpostiosoite ([lista](https://github.com/pikaviestin/documentation/blob/main/email_validation_policy.py)).
-2. Muista vahvistaa käyttäjätunnuksesi saamasi tekstiviestin (tai sähköpostin) avulla.
+1. Lue, miten käsittelemme tietojasi: [Tietosuojaseloste (PDF)](https://www.pikaviestin.fi/tietosuojaseloste.pdf).
+2. Voit luoda tunnuksen kahdella eri tavalla alla olevista linkeistä. Rekisteröintitiedot ja käyttäjävarmennus kerätään väärinkäytön ehkäisemiseksi. 
+- [Luo tunnus (varmennus tekstiviestillä)](https://login.pikaviestin.fi/if/flow/enrollment-with-sms-verification/) (suositeltu)
+- [Luo tunnus (varmennus sähköpostilla)](https://login.pikaviestin.fi/if/flow/matrix-enrollment/) - Toimii vain jos sinulla on suomalainen sähköpostiosoite: ([lista luotetuista sähköpostiosoitteista](https://github.com/pikaviestin/documentation/blob/main/email_validation_policy.py)).
+3. Muista vahvistaa käyttäjätunnuksesi saamasi tekstiviestin (tai sähköpostin) avulla.
 
 Jos rekisteröinnin kanssa on ongelmia tai tarvitset kutsun tai useamman, ota yhteyttä sähköpostilla yllapito [ät] pikaviestin.fi tai Matrixissa #aula:pikaviestin.fi -kanavalla.
 
@@ -31,6 +32,7 @@ Ajassa, jossa suositut ja laajalti käytetyt palvelut ovat lähes poikkeuksetta 
 
 Tämä palvelu on tarkoitettu Suomessa asuville käyttäjille. Palvelu tallentaa käyttäjän syöttämät tiedot sekä viestihistorian palvelun toteutuksen vaatimalla tavalla. Ylläpidolla ei ole pääsyä
 Matrix-viesteihin niiltä osin, kun ne ovat päästä päähän salattuja (E2EE). Viestinnän salaus on käyttäjän itsensä hallittavissa. Mastodonissa ja Mobilizonissa ylläpidolla on pääsy kaikkiin käyttäjän sisältöihin.
+
 
 Kaikki viestiliikenne on verkkotasolla HTTPS-menetelmällä salattua, joten tietoja ei liiku verkossa salaamattomana.
 
