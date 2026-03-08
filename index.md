@@ -14,12 +14,16 @@ Kaikki palvelut ovat federoituja, eli voit viestiä ympäri maailman muilla palv
 
 ## Miten pääset käyttämään pikaviestimen palveluita?
 
-1. Lue, miten käsittelemme tietojasi: [Tietosuojaseloste (PDF)](https://www.pikaviestin.fi/tietosuojaseloste.pdf).
-2. Voit luoda tunnuksen kahdella eri tavalla alla olevista linkeistä. Rekisteröintitiedot ja käyttäjävarmennus kerätään väärinkäytön ehkäisemiseksi.
-
-    * [Luo tunnus (varmennus tekstiviestillä)](https://login.pikaviestin.fi/if/flow/enrollment-with-sms-verification/) (suositeltu)
-    * [Luo tunnus (varmennus sähköpostilla)](https://login.pikaviestin.fi/if/flow/matrix-enrollment/) - Toimii vain jos sinulla on suomalainen sähköpostiosoite: ([lista luotetuista sähköpostiosoitteista](https://github.com/pikaviestin/documentation/blob/main/email_validation_policy.py)).
-3. Muista vahvistaa käyttäjätunnuksesi saamasi tekstiviestin (tai sähköpostin) avulla.
+<ol>
+  <li>Lue, miten käsittelemme tietojasi: <a href="https://www.pikaviestin.fi/tietosuojaseloste.pdf">Tietosuojaseloste (PDF)</a>.</li>
+  <li>Voit luoda tunnuksen kahdella eri tavalla alla olevista linkeistä. Rekisteröintitiedot ja käyttäjävarmennus kerätään väärinkäytön ehkäisemiseksi.
+    <ul>
+      <li><a href="https://login.pikaviestin.fi/if/flow/enrollment-with-sms-verification/">Luo tunnus (varmennus tekstiviestillä)</a> (suositeltu)</li>
+      <li><a href="https://login.pikaviestin.fi/if/flow/matrix-enrollment/">Luo tunnus (varmennus sähköpostilla)</a> - Toimii vain jos sinulla on suomalainen sähköpostiosoite: (<a href="https://github.com/pikaviestin/documentation/blob/main/email_validation_policy.py">lista luotetuista sähköpostiosoitteista</a>).</li>
+    </ul>
+  </li>
+  <li>Muista vahvistaa käyttäjätunnuksesi saamasi tekstiviestin (tai sähköpostin) avulla.</li>
+</ol>
 
 Jos rekisteröinnin kanssa on ongelmia tai tarvitset kutsun tai useamman, ota yhteyttä sähköpostilla yllapito [ät] pikaviestin.fi tai Matrixissa #aula:pikaviestin.fi -kanavalla.
 
