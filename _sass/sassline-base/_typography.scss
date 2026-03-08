@@ -120,7 +120,7 @@ a {
   ol {
     list-style-type: none;
 
-    li {
+    > li {
       counter-increment: top-level;
 
       &:before {
@@ -134,7 +134,7 @@ a {
 
       ul {
 
-        li {
+        > li {
 
           &:before {
             content: '';
@@ -142,7 +142,7 @@ a {
 
           ol {
 
-            li {
+            > li {
               counter-increment: alt-level;
 
               &:before {
@@ -155,7 +155,7 @@ a {
 
       ol {
 
-        li {
+        > li {
           counter-increment: sub-level;
 
           &:before {
@@ -164,7 +164,7 @@ a {
 
           ul {
 
-            li {
+            > li {
 
               &:before {
                 content: '';
@@ -174,7 +174,7 @@ a {
 
           ol {
 
-            li {
+            > li {
               counter-increment: sub-sub-level;
 
               &:before {
@@ -186,7 +186,7 @@ a {
       }
     }
   }
-
+  
   // Definition lists.
   dl {
     @include baseline(zeta, $bodytype, 2, 2, all);
