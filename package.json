@@ -1,5 +1,5 @@
 {
-  "packageManager": "npm@11.21.2",
+  "packageManager": "npm@12.2.2",
   "dependencies": {
     "md-to-pdf": "5.2.5"
   }
