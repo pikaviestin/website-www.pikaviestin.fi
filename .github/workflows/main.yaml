@@ -33,6 +33,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
+      - name: Allow unprivileged user namespaces for Chrome sandbox
+        # Ubuntu 24.04+ runners restrict them via AppArmor, which makes
+        # puppeteer's Chrome (md-to-pdf) abort with "No usable sandbox!"
+        run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
       - name: Build with Jekyll
         run: ./build.sh
         env:
